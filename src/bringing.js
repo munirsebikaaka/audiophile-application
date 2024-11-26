@@ -1,8 +1,10 @@
 const Bringing = () => {
   return (
-    <div>
+    <div className="bringing">
       <div>
-        <h1>Bringing you the best audio gear</h1>
+        <h1>
+          BRINGING YOU THE <span>BEST</span> AUDIO GEAR
+        </h1>
         <p>
           Located at the heart of New York City, Audiophile is the premier store
           for high end headphones, earphones, speakers, and audio accessories.
@@ -12,7 +14,7 @@ const Bringing = () => {
           best place to buy your portable audio equipment.
         </p>
       </div>
-      <p>img</p>
+      <img src="appImgs/home-imgs/Bitmap (2).jpg" alt="face of our customer" />
     </div>
   );
 };

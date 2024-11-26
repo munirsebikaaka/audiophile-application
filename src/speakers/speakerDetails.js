@@ -1,7 +1,7 @@
 const SpeakerDetails = () => {
   return (
     <div>
-      <h1>SpeakerDetails</h1>
+      <h1></h1>
     </div>
   );
 };

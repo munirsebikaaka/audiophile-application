@@ -5,14 +5,14 @@ import Samples from "../samples";
 
 const Speaker = () => {
   return (
-    <div>
-      <head>
+    <div className="speakers">
+      <div>
         <AppNav />
         <h1>SPEAKERS</h1>
-      </head>
+      </div>
 
       <section>
-        <p>img</p>
+        <img src="appImgs/speaker-imgs/speaker1.jpg" alt="image of a speaker" />
         <div>
           <h4>NEW PRODUCTS</h4>
           <h1>ZX9 SPEAKER</h1>
@@ -22,7 +22,7 @@ const Speaker = () => {
             -- creating new possibilities for more pleasing and practical audio
             setups.
           </p>
-          <button>SEE PRODUCTS</button>
+          <button className="see-products">SEE PRODUCTS</button>
         </div>
       </section>
 
@@ -35,9 +35,9 @@ const Speaker = () => {
             represents the top of the line powered speakers for home or studio
             use.
           </p>
-          <button>SEE PRODUCTS</button>
+          <button className="see-products">SEE PRODUCTS</button>
         </div>
-        <p>img</p>
+        <img src="appImgs/speaker-imgs/speaker2.jpg" alt="image of a speaker" />
       </section>
 
       <Samples />

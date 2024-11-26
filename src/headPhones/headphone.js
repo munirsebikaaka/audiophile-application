@@ -5,41 +5,45 @@ import Samples from "../samples";
 
 const HeadPhones = () => {
   return (
-    <div>
-      <head>
+    <div className="headphones">
+      <div className="head">
         <AppNav />
         <h1>HEADPHONES</h1>
-      </head>
+      </div>
       <section>
-        <p>img</p>
+        <img src="appImgs/headphones-imgs/head2.jpg" alt="headphone barts" />
         <div>
           <h4>NEW PRODUCTS</h4>
-          <h1>XX99 Mark II Headphones</h1>
+          <h1>
+            XX99 MARK II
+            <br /> HEADPHONES
+          </h1>
           <p>
             The new XX99 Mark II headphones is the pinnacle of pristine audio.
             It redefines your premium headphone experience by reproducing the
             balanced depth and precision of studio-quality sound.
           </p>
-          <button>SEE PRODUCTS</button>
+          <button className="see-products">SEE PRODUCTS</button>
         </div>
       </section>
 
       <section>
         <div>
-          <h4>NEW PRODUCTS</h4>
-          <h1>XX99 Mark I Headphones</h1>
+          <h1>
+            XX99 MARK I<br /> HEADPHONES
+          </h1>
           <p>
             As the gold standard for headphones, the classic XX99 Mark I offers
             detailed and accurate audio reproduction for audiophiles, mixing
             engineers, and music aficionados alike in studios and on the go.
           </p>
-          <button>SEE PRODUCTS</button>
+          <button className="see-products">SEE PRODUCTS</button>
         </div>
-        <p>img</p>
+        <img src="appImgs/headphones-imgs/head1.jpg" alt="headphone barts" />
       </section>
 
       <section>
-        <p>img</p>
+        <img src="appImgs/headphones-imgs/head3.jpg" alt="headphone barts" />
         <div>
           <h1>XX59 HEADPHONES</h1>
           <p>
@@ -47,7 +51,7 @@ const HeadPhones = () => {
             tastes with the XX59 headphones. The stylish yet durable versatile
             wireless headset is a brilliant companion at home or on the move.
           </p>
-          <button>SEE PRODUCTS</button>
+          <button className="see-products">SEE PRODUCTS</button>
         </div>
       </section>
 

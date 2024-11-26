@@ -4,28 +4,32 @@ import Footer from "./Footer";
 import Samples from "./samples";
 
 const Home = () => {
+  const styles = {
+    backgroundImage: `url('appImgs/home-imgs/Bitmap3.jpg')`,
+  };
+
   return (
     <main>
-      <head>
+      <section className="section1">
         <AppNav />
-        <div>
+        <div className="main">
           <div>
             <h4>NEW PRODUCTS</h4>
-            <h1>XX99 Mark II Headphones</h1>
+            <h1>XX99 MARK II HEADPHONES</h1>
             <p>
-              Experience natural, lifelike audio and exceptional build quality
-              made for the passionate music enthusiast.
+              Experience natural, lifelike audio and exceptional <br /> build
+              quality made for the passionate <br /> music enthusiast.
             </p>
-            <button>SEE PRODUCTS</button>
+            <button className="see-products">SEE PRODUCTS</button>
           </div>
-          <div>img</div>
+          <img src="appImgs/home-imgs/Bitmap.jpg" />
         </div>
-      </head>
+      </section>
 
       <Samples />
 
-      <section>
-        <p>img</p>
+      <section className="section2">
+        <img src="appImgs/home-imgs/speaker.jpg" alt="image of a speaker" />
         <div>
           <h1>
             ZX9 <br />
@@ -35,21 +39,23 @@ const Home = () => {
             Upgrade to premium speakers that are phenomenally built to deliver
             truly remarkable sound.
           </p>
-          <button>SEE PRODUCTS</button>
+          <button className="see-products2">SEE PRODUCTS</button>
         </div>
       </section>
 
-      <section>
+      <section className="section3" style={styles}>
         <h1>ZX7 SPEAKER</h1>
         <button>SEE PRODUCTS</button>
-        <p>img</p>
       </section>
 
-      <section>
+      <section className="section4">
         <div>
-          <p>img</p>
+          <img
+            src="appImgs/home-imgs/Bitmap (1).jpg"
+            alt="image of ear peaces"
+          />
         </div>
-        <div>
+        <div className="details">
           <h1>ZX7 SPEAKER</h1>
           <button>SEE PRODUCTS</button>
         </div>

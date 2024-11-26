@@ -1,16 +1,21 @@
 const Samples = () => {
   return (
-    <div>
+    <div className="samples">
       <div>
-        <p>img</p> <h1>HEADPHONES</h1>
+        <img src="appImgs/sample-imgs/sample2.jpg" alt="image of the product" />{" "}
+        <h1>SPEAKERS</h1>
         <button>SHOP</button>
       </div>
       <div>
-        <p>img</p> <h1>SPEAKERS</h1>
+        <img src="appImgs/sample-imgs/sample1.jpg" alt="image of the product" />
+        <h1>HEADPHONES</h1>
         <button>SHOP</button>
       </div>
+
       <div>
-        <p>img</p> <h1>EARPHONES</h1>
+        <img src="appImgs/sample-imgs/sample3.jpg" alt="image of the product" />
+
+        <h1>EARPHONES</h1>
         <button>SHOP</button>
       </div>
     </div>

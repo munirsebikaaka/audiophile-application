@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import AppNav from "../AppNav";
 import Bringing from "../bringing";
 import Footer from "../Footer";
@@ -12,7 +13,7 @@ const EarPhones = () => {
       </div>
 
       <section>
-        <img src="appImgs/earphones-imgs/ear.jpg" alt="image of a pond" />
+        <img src="appImgs/earphones-imgs/ear.jpg" alt="product" />
         <div>
           <h4>NEW PRODUCTS</h4>
           <h1>YX1 WIRELESS EARPHONES</h1>
@@ -22,7 +23,9 @@ const EarPhones = () => {
             even in noisy environments with its active noise cancellation
             feature.
           </p>
-          <button className="see-products">SEE PRODUCTS</button>
+          <NavLink to={"/ears/earsDetails"} className="see-products">
+            SEE PRODUCTS
+          </NavLink>
         </div>
       </section>
 

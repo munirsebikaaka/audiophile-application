@@ -22,14 +22,14 @@ const Home = () => {
             </p>
             <button className="see-products">SEE PRODUCTS</button>
           </div>
-          <img src="appImgs/home-imgs/Bitmap.jpg" />
+          <img src="appImgs/home-imgs/Bitmap.jpg" alt="example of bart sound" />
         </div>
       </section>
 
       <Samples />
 
       <section className="section2">
-        <img src="appImgs/home-imgs/speaker.jpg" alt="image of a speaker" />
+        <img src="appImgs/home-imgs/speaker.jpg" alt="speaker" />
         <div>
           <h1>
             ZX9 <br />
@@ -50,10 +50,7 @@ const Home = () => {
 
       <section className="section4">
         <div>
-          <img
-            src="appImgs/home-imgs/Bitmap (1).jpg"
-            alt="image of ear peaces"
-          />
+          <img src="appImgs/home-imgs/Bitmap (1).jpg" alt="ear peaces" />
         </div>
         <div className="details">
           <h1>ZX7 SPEAKER</h1>

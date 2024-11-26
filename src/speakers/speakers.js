@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import AppNav from "../AppNav";
 import Bringing from "../bringing";
 import Footer from "../Footer";
@@ -12,7 +13,7 @@ const Speaker = () => {
       </div>
 
       <section>
-        <img src="appImgs/speaker-imgs/speaker1.jpg" alt="image of a speaker" />
+        <img src="appImgs/speaker-imgs/speaker1.jpg" alt="sound speaker" />
         <div>
           <h4>NEW PRODUCTS</h4>
           <h1>ZX9 SPEAKER</h1>
@@ -22,7 +23,9 @@ const Speaker = () => {
             -- creating new possibilities for more pleasing and practical audio
             setups.
           </p>
-          <button className="see-products">SEE PRODUCTS</button>
+          <NavLink to={"/speakers/spDetails"} className="see-products">
+            SEE PRODUCTS
+          </NavLink>
         </div>
       </section>
 
@@ -35,9 +38,11 @@ const Speaker = () => {
             represents the top of the line powered speakers for home or studio
             use.
           </p>
-          <button className="see-products">SEE PRODUCTS</button>
+          <NavLink to={"/speakers/spDetails2"} className="see-products">
+            SEE PRODUCTS
+          </NavLink>
         </div>
-        <img src="appImgs/speaker-imgs/speaker2.jpg" alt="image of a speaker" />
+        <img src="appImgs/speaker-imgs/speaker2.jpg" alt="product" />
       </section>
 
       <Samples />

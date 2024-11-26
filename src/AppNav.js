@@ -11,7 +11,7 @@ const AppNav = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink className="nav-link" to={"/headphones"}>
+          <NavLink className="nav-link" to={"/headPs"}>
             HEADPHONES
           </NavLink>
         </li>
@@ -21,7 +21,7 @@ const AppNav = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink className="nav-link" to={"/earphones"}>
+          <NavLink className="nav-link" to={"/ears"}>
             EARPHONES
           </NavLink>
         </li>

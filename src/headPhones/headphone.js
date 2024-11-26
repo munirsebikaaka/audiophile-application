@@ -2,6 +2,7 @@ import AppNav from "../AppNav";
 import Bringing from "../bringing";
 import Footer from "../Footer";
 import Samples from "../samples";
+import { NavLink } from "react-router-dom";
 
 const HeadPhones = () => {
   return (
@@ -23,7 +24,9 @@ const HeadPhones = () => {
             It redefines your premium headphone experience by reproducing the
             balanced depth and precision of studio-quality sound.
           </p>
-          <button className="see-products">SEE PRODUCTS</button>
+          <NavLink to={"/headPs/firstDetails"} className="see-products">
+            SEE PRODUCTS
+          </NavLink>
         </div>
       </section>
 
@@ -37,7 +40,9 @@ const HeadPhones = () => {
             detailed and accurate audio reproduction for audiophiles, mixing
             engineers, and music aficionados alike in studios and on the go.
           </p>
-          <button className="see-products">SEE PRODUCTS</button>
+          <NavLink to={"/headPs/secDetails"} className="see-products">
+            SEE PRODUCTS
+          </NavLink>
         </div>
         <img src="appImgs/headphones-imgs/head1.jpg" alt="headphone barts" />
       </section>
@@ -51,7 +56,9 @@ const HeadPhones = () => {
             tastes with the XX59 headphones. The stylish yet durable versatile
             wireless headset is a brilliant companion at home or on the move.
           </p>
-          <button className="see-products">SEE PRODUCTS</button>
+          <NavLink to={"/headPs/Detail3"} className="see-products">
+            SEE PRODUCTS
+          </NavLink>
         </div>
       </section>
 

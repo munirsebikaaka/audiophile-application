@@ -23,7 +23,7 @@ const EarPhones = () => {
             even in noisy environments with its active noise cancellation
             feature.
           </p>
-          <NavLink to={"/ears/earsDetails"} className="see-products">
+          <NavLink to={"/earsEarsDetails"} className="see-products">
             SEE PRODUCTS
           </NavLink>
         </div>

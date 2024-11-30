@@ -5,10 +5,10 @@ import Footer from "../Footer";
 
 const HeadPhonesDetailsTwo = () => {
   return (
-    <div>
+    <div className="pro-details">
       <AppNav />
-      <section>
-        <p>img</p>
+      <section className="sections1">
+        <img src="appImgs/headD.jpg" alt="head bart" />
         <div>
           <h4>NEW PRODUCTS</h4>
           <h1>XX99 MARK I HEADPHONES</h1>
@@ -17,14 +17,14 @@ const HeadPhonesDetailsTwo = () => {
             detailed and accurate audio reproduction for audiophiles, mixing
             engineers, and music aficionados alike in studios and on the go.
           </p>
-          <span>$$ 1,750</span>
-          <button>
-            <span>icon 1 icon</span>
-            <span>add to cart</span>
-          </button>
+          <span className="price"> $$ 1,750</span>
+          <span>
+            <button>icon 1 icon</button>
+            <button className="see-products">ADD TO CART</button>
+          </span>
         </div>
       </section>
-      <section>
+      <section className="sections2">
         <div>
           <h1>FEATURES</h1>
           <p>
@@ -44,7 +44,7 @@ const HeadPhonesDetailsTwo = () => {
             gold connector.
           </p>
         </div>
-        <div>
+        <div className="bonus">
           <h1>IN THE BOX</h1>
           <ul>
             <li>
@@ -62,30 +62,30 @@ const HeadPhonesDetailsTwo = () => {
           </ul>
         </div>
       </section>
-      <section>
-        <div>
+      <section className="sections4">
+        <div className="small-imgs">
           <p>img</p>
           <p>img</p>
         </div>
         <p>img</p>
       </section>
-      <section>
-        <h1>YOU MAY ALSO LIKE</h1>
-        <div>
+      <section className="sections5">
+        <h1 className="head">YOU MAY ALSO LIKE</h1>
+        <div className="main">
           <div>
             <p>img</p>
             <h1>XX99 MARK II</h1>
-            <button>SEE PRODUCTS</button>
+            <button className="see-products">SEE PRODUCTS</button>
           </div>
           <div>
-            <p>img</p>
+            <img src="appImgs/headphones-imgs/head3.jpg" alt="ear pads" />
             <h1>XX59</h1>
-            <button>SEE PRODUCTS</button>
+            <button className="see-products">SEE PRODUCTS</button>
           </div>
           <div>
-            <p>img</p>
+            <img src="appImgs/headphones-imgs/head2.jpg" alt="ear pads" />
             <h1>ZX9 SPEAKER</h1>
-            <button>SEE PRODUCTS</button>
+            <button className="see-products">SEE PRODUCTS</button>
           </div>
         </div>
       </section>

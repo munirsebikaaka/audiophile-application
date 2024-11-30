@@ -17,14 +17,14 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="ears" element={<EarPhones />} />
-          <Route path="ears/earsDetails" element={<EarPhonesDetails />} />
+          <Route path="earsEarsDetails" element={<EarPhonesDetails />} />
           <Route path="headPs" element={<HeadPhones />} />
-          <Route path="headPs/firstDetails" element={<HeadPhonesDetails />} />
-          <Route path="headPs/secDetails" element={<HeadPhonesDetailsTwo />} />
-          <Route path="headPs/Detail3" element={<HeadPhonesDetailsThree />} />
+          <Route path="headPsFirstDetails" element={<HeadPhonesDetails />} />
+          <Route path="headPsSecDetails" element={<HeadPhonesDetailsTwo />} />
+          <Route path="headPsDetail3" element={<HeadPhonesDetailsThree />} />
           <Route path="speakers" element={<Speaker />} />
-          <Route path="speakers/spDetails" element={<SpeakerDetails />} />
-          <Route path="speakers/spDetails2" element={<SpeakerDetailsTwo />} />
+          <Route path="speakersSpDetails" element={<SpeakerDetails />} />
+          <Route path="speakersSpDetails2" element={<SpeakerDetailsTwo />} />
         </Routes>
       </BrowserRouter>
     </div>

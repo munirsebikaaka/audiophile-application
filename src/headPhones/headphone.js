@@ -12,7 +12,7 @@ const HeadPhones = () => {
         <h1>HEADPHONES</h1>
       </div>
       <section>
-        <img src="appImgs/headphones-imgs/head2.jpg" alt="headphone barts" />
+        <img src="appImgs/headphones-imgs/head2.png" alt="headphone barts" />
         <div>
           <h4>NEW PRODUCTS</h4>
           <h1>
@@ -24,7 +24,7 @@ const HeadPhones = () => {
             It redefines your premium headphone experience by reproducing the
             balanced depth and precision of studio-quality sound.
           </p>
-          <NavLink to={"/headPs/firstDetails"} className="see-products">
+          <NavLink to={"/headPsFirstDetails"} className="see-products">
             SEE PRODUCTS
           </NavLink>
         </div>
@@ -40,7 +40,7 @@ const HeadPhones = () => {
             detailed and accurate audio reproduction for audiophiles, mixing
             engineers, and music aficionados alike in studios and on the go.
           </p>
-          <NavLink to={"/headPs/secDetails"} className="see-products">
+          <NavLink to={"/headPsSecDetails"} className="see-products">
             SEE PRODUCTS
           </NavLink>
         </div>
@@ -48,7 +48,7 @@ const HeadPhones = () => {
       </section>
 
       <section>
-        <img src="appImgs/headphones-imgs/head3.jpg" alt="headphone barts" />
+        <img src="appImgs/headphones-imgs/head3.png" alt="headphone barts" />
         <div>
           <h1>XX59 HEADPHONES</h1>
           <p>
@@ -56,7 +56,7 @@ const HeadPhones = () => {
             tastes with the XX59 headphones. The stylish yet durable versatile
             wireless headset is a brilliant companion at home or on the move.
           </p>
-          <NavLink to={"/headPs/Detail3"} className="see-products">
+          <NavLink to={"/headPsDetail3"} className="see-products">
             SEE PRODUCTS
           </NavLink>
         </div>

@@ -23,7 +23,7 @@ const Speaker = () => {
             -- creating new possibilities for more pleasing and practical audio
             setups.
           </p>
-          <NavLink to={"/speakers/spDetails"} className="see-products">
+          <NavLink to={"/speakersSpDetails"} className="see-products">
             SEE PRODUCTS
           </NavLink>
         </div>
@@ -38,7 +38,7 @@ const Speaker = () => {
             represents the top of the line powered speakers for home or studio
             use.
           </p>
-          <NavLink to={"/speakers/spDetails2"} className="see-products">
+          <NavLink to={"/speakersSpDetails2"} className="see-products">
             SEE PRODUCTS
           </NavLink>
         </div>

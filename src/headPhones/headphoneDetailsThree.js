@@ -5,10 +5,10 @@ import Samples from "../samples";
 
 const HeadPhonesDetailsThree = () => {
   return (
-    <div>
+    <div className="pro-details">
       <AppNav />
-      <section>
-        <p>img</p>
+      <section className="sections1">
+        <img src="appImgs/headD.jpg" alt="head bart" />
         <div>
           <h4>NEW PRODUCTS</h4>
           <h1>XX59 HEADPHONES</h1>
@@ -17,14 +17,16 @@ const HeadPhonesDetailsThree = () => {
             tastes with the XX59 headphones. The stylish yet durable versatile
             wireless headset is a brilliant companion at home or on the move.
           </p>
-          <span>$$ 899</span>
-          <button>
-            <span>icon 1 icon</span>
-            <span>add to cart</span>
-          </button>
+          <span className="price">$$ 899</span>
+          <span>
+            <button>icon 1 icon</button>
+            <button className="see-products">add to cart</button>
+          </span>
         </div>
       </section>
-      <section>
+      <section
+      // className="section2"
+      >
         <div>
           <h1>FEATURES</h1>
           <p>
@@ -44,7 +46,7 @@ const HeadPhonesDetailsThree = () => {
             recharged via USB-C.
           </p>
         </div>
-        <div>
+        <div className="bonus">
           <h1>IN THE BOX</h1>
           <ul>
             <li>
@@ -62,30 +64,30 @@ const HeadPhonesDetailsThree = () => {
           </ul>
         </div>
       </section>
-      <section>
-        <div>
+      <section className="sections4">
+        <div className="small-imgs">
           <p>img</p>
           <p>img</p>
         </div>
         <p>img</p>
       </section>
-      <section>
-        <h1>YOU MAY ALSO LIKE</h1>
-        <div>
+      <section className="sections5">
+        <h1 className="head">YOU MAY ALSO LIKE</h1>
+        <div className="main">
           <div>
             <p>img</p>
             <h1>XX99 MARK II</h1>
-            <button>SEE PRODUCTS</button>
+            <button className="see-products">SEE PRODUCTS</button>
           </div>
           <div>
-            <p>img</p>
+            <img src="appImgs/headphones-imgs/head1.jpg" alt="ear pads" />{" "}
             <h1>XX99 MARK 1</h1>
-            <button>SEE PRODUCTS</button>
+            <button className="see-products">SEE PRODUCTS</button>
           </div>
           <div>
-            <p>img</p>
+            <img src="appImgs/headphones-imgs/head2.jpg" alt="ear pads" />
             <h1>ZX9 SPEAKER</h1>
-            <button>SEE PRODUCTS</button>
+            <button className="see-products">SEE PRODUCTS</button>
           </div>
         </div>
       </section>

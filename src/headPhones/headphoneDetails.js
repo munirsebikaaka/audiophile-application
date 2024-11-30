@@ -5,10 +5,10 @@ import Samples from "../samples";
 
 const HeadPhonesDetails = () => {
   return (
-    <div>
+    <div className="pro-details">
       <AppNav />
-      <section>
-        <p>img</p>
+      <section className="sections1">
+        <img src="appImgs/headphones-imgs/head2.png" alt="head bart" />
         <div>
           <h4>NEW PRODUCTS</h4>
           <h1>XX99 MARK II HEADPHONES</h1>
@@ -17,14 +17,14 @@ const HeadPhonesDetails = () => {
             It redefines your premium headphone experience by reproducing the
             balanced depth and precision of studio-quality sound.
           </p>
-          <span>$2,999</span>
-          <button>
-            <span>icon 1 icon</span>
-            <span>add to cart</span>
-          </button>
+          <span className="price">$2,999</span>
+          <span>
+            <button>icon 1 icon</button>
+            <button className="see-products">ADD TO CART</button>
+          </span>
         </div>
       </section>
-      <section>
+      <section className="sections2">
         <div>
           <h1>FEATURES</h1>
           <p>
@@ -45,9 +45,10 @@ const HeadPhonesDetails = () => {
             design aesthetic.
           </p>
         </div>
-        <div>
-          <h1>IN THE BOX</h1>
+        <div className="bonus">
           <ul>
+            <h1>IN THE BOX</h1>
+
             <li>
               <span>1x</span>Headphones Unit
             </li>
@@ -66,30 +67,40 @@ const HeadPhonesDetails = () => {
           </ul>
         </div>
       </section>
-      <section>
-        <div>
-          <p>img</p>
-          <p>img</p>
+      <section className="sections4">
+        <div className="small-imgs">
+          <img
+            src="appImgs/headphones-imgs/Bitmap (2).jpg"
+            alt="face of customer"
+          />
+          <img
+            src="appImgs/headphones-imgs/Bitmap (1).jpg"
+            alt="face of customer"
+          />
         </div>
-        <p>img</p>
+        <img
+          className="main-img"
+          src="appImgs/headphones-imgs/Bitmap.jpg"
+          alt="face of customer"
+        />
       </section>
-      <section>
-        <h1>YOU MAY ALSO LIKE</h1>
-        <div>
+      <section className="sections5">
+        <h1 className="head">YOU MAY ALSO LIKE</h1>
+        <div className="main">
           <div>
-            <p>img</p>
+            <img src="appImgs/headphones-imgs/head1.jpg" alt="ear pads" />
             <h1>XX99 MARK I</h1>
-            <button>SEE PRODUCTS</button>
+            <button className="see-products">SEE PRODUCTS</button>
           </div>
           <div>
-            <p>img</p>
+            <img src="appImgs/headphones-imgs/head3.jpg" alt="ear pads" />
             <h1>XX59</h1>
-            <button>SEE PRODUCTS</button>
+            <button className="see-products">SEE PRODUCTS</button>
           </div>
           <div>
-            <p>img</p>
+            <img src="appImgs/headphones-imgs/head2.jpg" alt="ear pads" />
             <h1>ZX9 SPEAKER</h1>
-            <button>SEE PRODUCTS</button>
+            <button className="see-products">SEE PRODUCTS</button>
           </div>
         </div>
       </section>

@@ -6,6 +6,7 @@ import Samples from "./samples";
 const Home = () => {
   const styles = {
     backgroundImage: `url('appImgs/home-imgs/Bitmap3.jpg')`,
+    backgroundSize: "contain",
   };
 
   return (
@@ -17,24 +18,25 @@ const Home = () => {
             <h4>NEW PRODUCTS</h4>
             <h1>XX99 MARK II HEADPHONES</h1>
             <p>
-              Experience natural, lifelike audio and exceptional <br /> build
-              quality made for the passionate <br /> music enthusiast.
+              Experience natural, lifelike audio and exceptional build quality
+              made for the passionate music enthusiast.
             </p>
             <button className="see-products">SEE PRODUCTS</button>
           </div>
-          <img src="appImgs/home-imgs/Bitmap.jpg" alt="example of bart sound" />
+          <img src="appImgs/home-imgs/Bitmap.png" alt="example of bart sound" />
         </div>
       </section>
 
       <Samples />
 
       <section className="section2">
-        <img src="appImgs/home-imgs/speaker.jpg" alt="speaker" />
+        <img src="appImgs/home-imgs/speaker.png" alt="speaker" />
         <div>
           <h1>
             ZX9 <br />
             SPEAKER
           </h1>
+
           <p>
             Upgrade to premium speakers that are phenomenally built to deliver
             truly remarkable sound.
@@ -44,8 +46,10 @@ const Home = () => {
       </section>
 
       <section className="section3" style={styles}>
-        <h1>ZX7 SPEAKER</h1>
-        <button>SEE PRODUCTS</button>
+        <div>
+          <h1>ZX7 SPEAKER</h1>
+          <button>SEE PRODUCTS</button>
+        </div>
       </section>
 
       <section className="section4">

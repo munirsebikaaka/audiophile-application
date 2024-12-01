@@ -8,7 +8,11 @@ const HeadPhonesDetails = () => {
     <div className="pro-details">
       <AppNav />
       <section className="sections1">
-        <img src="appImgs/headphones-imgs/head2.png" alt="head bart" />
+        <img
+          className="img"
+          src="appImgs/headphones-imgs/head2.png"
+          alt="head bart"
+        />
         <div>
           <h4>NEW PRODUCTS</h4>
           <h1>XX99 MARK II HEADPHONES</h1>
@@ -17,10 +21,10 @@ const HeadPhonesDetails = () => {
             It redefines your premium headphone experience by reproducing the
             balanced depth and precision of studio-quality sound.
           </p>
-          <span className="price">$2,999</span>
+          <h3 className="price">$ 2,999</h3>
           <span>
-            <button>icon 1 icon</button>
-            <button className="see-products">ADD TO CART</button>
+            <button className="increase">icon 1 icon</button>
+            <button className="increase2">ADD TO CART</button>
           </span>
         </div>
       </section>

@@ -5,10 +5,14 @@ import Samples from "../samples";
 
 const SpeakerDetailsTwo = () => {
   return (
-    <div>
+    <div className="pro-details">
       <AppNav />
-      <section>
-        <p>img</p>
+      <section className="sections1">
+        <img
+          className="img"
+          src="appImgs/speaker-imgs/speaker2.png"
+          alt="head bart"
+        />
         <div>
           <h4>NEW PRODUCTS</h4>
           <h1>ZX7 SPEAKER</h1>
@@ -17,14 +21,14 @@ const SpeakerDetailsTwo = () => {
             ZX7 speaker uses high-end audiophile components that represents the
             top of the line powered speakers for home or studio use.
           </p>
-          <span>$3,500</span>
-          <button>
-            <span>icon 1 icon</span>
-            <span>add to cart</span>
-          </button>
+          <h3 className="price">$3,500</h3>
+          <span>
+            <button className="increase">icon 1 icon</button>
+            <button className="increase2">ADD TO CART</button>
+          </span>
         </div>
       </section>
-      <section>
+      <section className="sections2">
         <div>
           <h1>FEATURES</h1>
           <p>
@@ -44,9 +48,10 @@ const SpeakerDetailsTwo = () => {
             authentic listening experience.
           </p>
         </div>
-        <div>
-          <h1>IN THE BOX</h1>
+        <div className="bonus">
           <ul>
+            <h1>IN THE BOX</h1>
+
             <li>
               <span>1x</span>Speaker Unit
             </li>

@@ -5,10 +5,14 @@ import Samples from "../samples";
 
 const EarPhonesDetails = () => {
   return (
-    <div>
+    <div className="pro-details">
       <AppNav />
-      <section>
-        <p>img</p>
+      <section className="sections1">
+        <img
+          className="img"
+          src="appImgs/earphones-imgs/ear.png"
+          alt="ear piece"
+        />
         <div>
           <h4>NEW PRODUCTS</h4>
           <h1>YX1 WIRELESS EARPHONES</h1>
@@ -18,14 +22,14 @@ const EarPhonesDetails = () => {
             even in noisy environments with its active noise cancellation
             feature.
           </p>
-          <span>$599</span>
-          <button>
-            <span>icon 1 icon</span>
-            <span>add to cart</span>
-          </button>
+          <h3 className="price">$599</h3>
+          <span>
+            <button className="increase">icon 1 icon</button>
+            <button className="increase2">ADD TO CART</button>
+          </span>
         </div>
       </section>
-      <section>
+      <section className="sections2">
         <div>
           <h1>FEATURES</h1>
           <p>
@@ -46,7 +50,7 @@ const EarPhonesDetails = () => {
             black.
           </p>
         </div>
-        <div>
+        <div className="bonus">
           <h1>IN THE BOX</h1>
           <ul>
             <li>

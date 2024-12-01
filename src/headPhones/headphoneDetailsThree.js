@@ -8,25 +8,30 @@ const HeadPhonesDetailsThree = () => {
     <div className="pro-details">
       <AppNav />
       <section className="sections1">
-        <img src="appImgs/headD.jpg" alt="head bart" />
+        <img
+          className="img"
+          src="appImgs/headphones-imgs/head3.png"
+          alt="head bart"
+        />{" "}
         <div>
           <h4>NEW PRODUCTS</h4>
-          <h1>XX59 HEADPHONES</h1>
+          <h1>
+            XX59
+            <br /> HEADPHONES
+          </h1>
           <p>
             Enjoy your audio almost anywhere and customize it to your specific
             tastes with the XX59 headphones. The stylish yet durable versatile
             wireless headset is a brilliant companion at home or on the move.
           </p>
-          <span className="price">$$ 899</span>
+          <h3 className="price">$$ 899</h3>
           <span>
-            <button>icon 1 icon</button>
-            <button className="see-products">add to cart</button>
+            <button className="increase">icon 1 icon</button>
+            <button className="increase2"> ADD TO CART</button>
           </span>
         </div>
       </section>
-      <section
-      // className="section2"
-      >
+      <section className="sections2">
         <div>
           <h1>FEATURES</h1>
           <p>
@@ -66,10 +71,19 @@ const HeadPhonesDetailsThree = () => {
       </section>
       <section className="sections4">
         <div className="small-imgs">
-          <p>img</p>
-          <p>img</p>
+          <img
+            src="appImgs/headphones-imgs/Bitmap (5).png"
+            alt="white ear pads"
+          />
+          <img
+            src="appImgs/headphones-imgs/Bitmap (4).png"
+            alt="white ear pads"
+          />{" "}
         </div>
-        <p>img</p>
+        <img
+          src="appImgs/headphones-imgs/Bitmap (3).png"
+          alt="white ear pads"
+        />
       </section>
       <section className="sections5">
         <h1 className="head">YOU MAY ALSO LIKE</h1>

@@ -5,10 +5,14 @@ import Samples from "../samples";
 
 const SpeakerDetails = () => {
   return (
-    <div>
+    <div className="pro-details">
       <AppNav />
-      <section>
-        <p>img</p>
+      <section className="sections1">
+        <img
+          className="img"
+          src="appImgs/speaker-imgs/speaker1.png"
+          alt="head bart"
+        />
         <div>
           <h4>NEW PRODUCTS</h4>
           <h1>ZX9 SPEAKER</h1>
@@ -18,14 +22,14 @@ const SpeakerDetails = () => {
             -- creating new possibilities for more pleasing and practical audio
             setups.
           </p>
-          <span>$4,500</span>
-          <button>
-            <span>icon 1 icon</span>
-            <span>add to cart</span>
-          </button>
+          <h3 className="price">$4,500</h3>
+          <span>
+            <button className="increase">icon 1 icon</button>
+            <button className="increase2">ADD TO CART</button>
+          </span>
         </div>
       </section>
-      <section>
+      <section className="sections2">
         <div>
           <h1>FEATURES</h1>
           <p>
@@ -45,7 +49,7 @@ const SpeakerDetails = () => {
             waveforms.
           </p>
         </div>
-        <div>
+        <div className="bonus">
           <h1>IN THE BOX</h1>
           <ul>
             <li>
@@ -68,10 +72,16 @@ const SpeakerDetails = () => {
       </section>
       <section>
         <div>
-          <p>img</p>
-          <p>img</p>
+          <img
+            src="appImgs/speaker-imgs/Bitmap (6).png"
+            alt="face of customer"
+          />
+          <img
+            src="appImgs/speaker-imgs/Bitmap (7).png"
+            alt="face of customer"
+          />
         </div>
-        <p>img</p>
+        <img src="appImgs/speaker-imgs/Bitmap (8).png" alt="face of customer" />
       </section>
       <section>
         <h1>YOU MAY ALSO LIKE</h1>

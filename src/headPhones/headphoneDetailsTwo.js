@@ -8,7 +8,11 @@ const HeadPhonesDetailsTwo = () => {
     <div className="pro-details">
       <AppNav />
       <section className="sections1">
-        <img src="appImgs/headD.jpg" alt="head bart" />
+        <img
+          className="img"
+          src="appImgs/headphones-imgs/head1.png"
+          alt="head bart"
+        />
         <div>
           <h4>NEW PRODUCTS</h4>
           <h1>XX99 MARK I HEADPHONES</h1>
@@ -17,10 +21,10 @@ const HeadPhonesDetailsTwo = () => {
             detailed and accurate audio reproduction for audiophiles, mixing
             engineers, and music aficionados alike in studios and on the go.
           </p>
-          <span className="price"> $$ 1,750</span>
+          <h3 className="price"> $$ 1,750</h3>
           <span>
-            <button>icon 1 icon</button>
-            <button className="see-products">ADD TO CART</button>
+            <button className="increase">icon 1 icon</button>
+            <button className="increase2">ADD TO CART</button>
           </span>
         </div>
       </section>

@@ -1,4 +1,4 @@
-import AppNav from "../AppNav";
+import DetailsNav from "../AppDetailsNav";
 import Bringing from "../bringing";
 import Footer from "../Footer";
 import Samples from "../samples";
@@ -6,7 +6,7 @@ import Samples from "../samples";
 const SpeakerDetailsTwo = () => {
   return (
     <div className="pro-details">
-      <AppNav />
+      <DetailsNav />
       <section className="sections1">
         <img
           className="img"
@@ -70,30 +70,36 @@ const SpeakerDetailsTwo = () => {
           </ul>
         </div>
       </section>
-      <section>
-        <div>
-          <p>img</p>
-          <p>img</p>
+      <section className="sections4">
+        <div className="small-imgs">
+          <img src="appImgs/speaker-imgs/Bitmap.png" alt="speaker" />
+          <img src="appImgs/speaker-imgs/Bitmap (1).png" alt="speaker" />
         </div>
-        <p>img</p>
+        <img
+          className="main-img"
+          src="appImgs/speaker-imgs/Bitmap (3).png"
+          alt="speaker"
+        />
       </section>
-      <section>
-        <h1>YOU MAY ALSO LIKE</h1>
-        <div>
+      <section className="sections5">
+        <h1 className="head">YOU MAY ALSO LIKE</h1>
+        <div className="main">
           <div>
-            <p>img</p>
+            <img src="appImgs/gens/gen3.png" alt="ear pads" />
+
             <h1>ZX9 SPEAKER</h1>
-            <button>SEE PRODUCTS</button>
+            <button className="see-products">SEE PRODUCTS</button>
           </div>
           <div>
-            <p>img</p>
+            <img src="appImgs/gens/gen4.png" alt="ear pads" />
+
             <h1>XX99 MARK 1</h1>
-            <button>SEE PRODUCTS</button>
+            <button className="see-products">SEE PRODUCTS</button>
           </div>
           <div>
-            <p>img</p>
+            <img src="appImgs/gens/gen2.png" alt="ear pads" />
             <h1>XX59</h1>
-            <button>SEE PRODUCTS</button>
+            <button className="see-products">SEE PRODUCTS</button>
           </div>
         </div>
       </section>

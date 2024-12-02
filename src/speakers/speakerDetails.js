@@ -1,4 +1,4 @@
-import AppNav from "../AppNav";
+import DetailsNav from "../AppDetailsNav";
 import Bringing from "../bringing";
 import Footer from "../Footer";
 import Samples from "../samples";
@@ -6,7 +6,7 @@ import Samples from "../samples";
 const SpeakerDetails = () => {
   return (
     <div className="pro-details">
-      <AppNav />
+      <DetailsNav />
       <section className="sections1">
         <img
           className="img"
@@ -70,36 +70,43 @@ const SpeakerDetails = () => {
           </ul>
         </div>
       </section>
-      <section>
-        <div>
+      <section className="sections4">
+        <div className="small-imgs">
           <img
             src="appImgs/speaker-imgs/Bitmap (6).png"
-            alt="face of customer"
+            alt="face of speaker"
           />
           <img
             src="appImgs/speaker-imgs/Bitmap (7).png"
-            alt="face of customer"
+            alt="face of speaker"
           />
         </div>
-        <img src="appImgs/speaker-imgs/Bitmap (8).png" alt="face of customer" />
+
+        <img
+          className="main-img"
+          src="appImgs/speaker-imgs/Bitmap (8).png"
+          alt="face of speaker"
+        />
       </section>
-      <section>
-        <h1>YOU MAY ALSO LIKE</h1>
-        <div>
+      <section className="sections5">
+        <h1 className="head">YOU MAY ALSO LIKE</h1>
+        <div className="main">
           <div>
-            <p>img</p>
+            <img src="appImgs/gens/gen5.png" alt="ear pads" />
             <h1>ZX7 SPEAKER</h1>
-            <button>SEE PRODUCTS</button>
+            <button className="see-products">SEE PRODUCTS</button>
           </div>
           <div>
-            <p>img</p>
+            <img src="appImgs/gens/gen4.png" alt="ear pads" />
+
             <h1>XX99 MARK 1</h1>
-            <button>SEE PRODUCTS</button>
+            <button className="see-products">SEE PRODUCTS</button>
           </div>
           <div>
-            <p>img</p>
+            <img src="appImgs/gens/gen2.png" alt="ear pads" />
+
             <h1>XX59</h1>
-            <button>SEE PRODUCTS</button>
+            <button className="see-products">SEE PRODUCTS</button>
           </div>
         </div>
       </section>

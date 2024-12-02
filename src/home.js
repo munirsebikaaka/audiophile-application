@@ -6,7 +6,7 @@ import Samples from "./samples";
 const Home = () => {
   const styles = {
     backgroundImage: `url('appImgs/home-imgs/Bitmap3.jpg')`,
-    backgroundSize: "contain",
+    backgroundSize: "cover",
   };
 
   return (
@@ -48,7 +48,7 @@ const Home = () => {
       <section className="section3" style={styles}>
         <div>
           <h1>ZX7 SPEAKER</h1>
-          <button>SEE PRODUCTS</button>
+          <button className="see-pros">SEE PRODUCTS</button>
         </div>
       </section>
 
@@ -58,7 +58,7 @@ const Home = () => {
         </div>
         <div className="details">
           <h1>ZX7 SPEAKER</h1>
-          <button>SEE PRODUCTS</button>
+          <button className="see-pros">SEE PRODUCTS</button>
         </div>
       </section>
       <Bringing />

@@ -1,33 +1,36 @@
 import { NavLink } from "react-router-dom";
+import { IoCartOutline } from "react-icons/io5";
 
 const AppNav = () => {
   return (
-    <nav className="app-nav">
-      <h1>audiophile</h1>
-      <ul>
-        <li>
-          <NavLink className="nav-link" to={"/"}>
-            HOME
-          </NavLink>
-        </li>
-        <li>
-          <NavLink className="nav-link" to={"/headPs"}>
-            HEADPHONES
-          </NavLink>
-        </li>
-        <li>
-          <NavLink className="nav-link" to={"/speakers"}>
-            SPEAKERS
-          </NavLink>
-        </li>
-        <li>
-          <NavLink className="nav-link" to={"/ears"}>
-            EARPHONES
-          </NavLink>
-        </li>
-      </ul>
-      <p>icon</p>
-    </nav>
+    <div className="app-nav-cell">
+      <nav className="app-nav">
+        <h2>audiophile</h2>
+        <ul>
+          <li>
+            <NavLink className="nav-link" to={"/"}>
+              HOME
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="nav-link" to={"/headPs"}>
+              HEADPHONES
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="nav-link" to={"/speakers"}>
+              SPEAKERS
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="nav-link" to={"/ears"}>
+              EARPHONES
+            </NavLink>
+          </li>
+        </ul>
+        <IoCartOutline className="icon" />
+      </nav>
+    </div>
   );
 };
 export default AppNav;

@@ -7,7 +7,7 @@ import Samples from "../samples";
 const Speaker = () => {
   return (
     <div className="speakers">
-      <div>
+      <div className="head">
         <AppNav />
         <h1>SPEAKERS</h1>
       </div>

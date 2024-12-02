@@ -1,4 +1,4 @@
-import AppNav from "../AppNav";
+import DetailsNav from "../AppDetailsNav";
 import Bringing from "../bringing";
 import Footer from "../Footer";
 import Samples from "../samples";
@@ -6,7 +6,7 @@ import Samples from "../samples";
 const HeadPhonesDetailsThree = () => {
   return (
     <div className="pro-details">
-      <AppNav />
+      <DetailsNav />
       <section className="sections1">
         <img
           className="img"
@@ -78,9 +78,10 @@ const HeadPhonesDetailsThree = () => {
           <img
             src="appImgs/headphones-imgs/Bitmap (4).png"
             alt="white ear pads"
-          />{" "}
+          />
         </div>
         <img
+          className="main-img"
           src="appImgs/headphones-imgs/Bitmap (3).png"
           alt="white ear pads"
         />
@@ -89,17 +90,19 @@ const HeadPhonesDetailsThree = () => {
         <h1 className="head">YOU MAY ALSO LIKE</h1>
         <div className="main">
           <div>
-            <p>img</p>
+            <img src="appImgs/gens/gen5.png" alt="ear pads" />
             <h1>XX99 MARK II</h1>
             <button className="see-products">SEE PRODUCTS</button>
           </div>
           <div>
-            <img src="appImgs/headphones-imgs/head1.jpg" alt="ear pads" />{" "}
+            <img src="appImgs/gens/gen4.png" alt="ear pads" />
+
             <h1>XX99 MARK 1</h1>
             <button className="see-products">SEE PRODUCTS</button>
           </div>
           <div>
-            <img src="appImgs/headphones-imgs/head2.jpg" alt="ear pads" />
+            <img src="appImgs/gens/gen3.png" alt="ear pads" />
+
             <h1>ZX9 SPEAKER</h1>
             <button className="see-products">SEE PRODUCTS</button>
           </div>

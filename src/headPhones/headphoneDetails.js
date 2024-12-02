@@ -1,4 +1,4 @@
-import AppNav from "../AppNav";
+import DetailsNav from "../AppDetailsNav";
 import Bringing from "../bringing";
 import Footer from "../Footer";
 import Samples from "../samples";
@@ -6,7 +6,7 @@ import Samples from "../samples";
 const HeadPhonesDetails = () => {
   return (
     <div className="pro-details">
-      <AppNav />
+      <DetailsNav />
       <section className="sections1">
         <img
           className="img"
@@ -73,36 +73,30 @@ const HeadPhonesDetails = () => {
       </section>
       <section className="sections4">
         <div className="small-imgs">
-          <img
-            src="appImgs/headphones-imgs/Bitmap (2).jpg"
-            alt="face of customer"
-          />
-          <img
-            src="appImgs/headphones-imgs/Bitmap (1).jpg"
-            alt="face of customer"
-          />
+          <img src="appImgs/headphones-imgs/Bitmap (2).jpg" alt="headphone" />
+          <img src="appImgs/headphones-imgs/Bitmap (1).jpg" alt="headphone" />
         </div>
         <img
           className="main-img"
           src="appImgs/headphones-imgs/Bitmap.jpg"
-          alt="face of customer"
+          alt="headphone"
         />
       </section>
       <section className="sections5">
         <h1 className="head">YOU MAY ALSO LIKE</h1>
         <div className="main">
           <div>
-            <img src="appImgs/headphones-imgs/head1.jpg" alt="ear pads" />
-            <h1>XX99 MARK I</h1>
+            <img src="appImgs/gens/gen4.png" alt="ear pads" />
+            <h1>XX99 MARK 1</h1>
             <button className="see-products">SEE PRODUCTS</button>
           </div>
           <div>
-            <img src="appImgs/headphones-imgs/head3.jpg" alt="ear pads" />
+            <img src="appImgs/gens/gen2.png" alt="ear pads" />
             <h1>XX59</h1>
             <button className="see-products">SEE PRODUCTS</button>
           </div>
           <div>
-            <img src="appImgs/headphones-imgs/head2.jpg" alt="ear pads" />
+            <img src="appImgs/gens/gen3.png" alt="ear pads" />
             <h1>ZX9 SPEAKER</h1>
             <button className="see-products">SEE PRODUCTS</button>
           </div>

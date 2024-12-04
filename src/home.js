@@ -1,12 +1,12 @@
 import AppNav from "./AppNav";
 import Bringing from "./bringing";
 import Footer from "./Footer";
+import ResHello from "./resHome";
 import Samples from "./samples";
 
 const Home = () => {
   const styles = {
     backgroundImage: `url('appImgs/home-imgs/Bitmap3.jpg')`,
-    backgroundSize: "cover",
   };
 
   return (
@@ -27,6 +27,8 @@ const Home = () => {
         </div>
       </section>
 
+      <ResHello />
+
       <Samples />
 
       <section className="section2">
@@ -34,7 +36,7 @@ const Home = () => {
         <div>
           <h1>
             ZX9 <br />
-            SPEAKER
+            <span> SPEAKER</span>
           </h1>
 
           <p>

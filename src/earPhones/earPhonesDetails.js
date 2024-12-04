@@ -8,14 +8,18 @@ const EarPhonesDetails = () => {
     <div className="pro-details">
       <DetailsNav />
       <section className="sections1">
-        <img
-          className="img"
-          src="appImgs/earphones-imgs/ear.png"
-          alt="ear piece"
-        />
-        <div>
+        <div className="img-container">
+          <img
+            className="img"
+            src="appImgs/earphones-imgs/ear.png"
+            alt="ear piece"
+          />
+        </div>
+        <div className="detail-container">
           <h4>NEW PRODUCTS</h4>
-          <h1>YX1 WIRELESS EARPHONES</h1>
+          <h1>
+            YX1 WIRELESS <span>EARPHONES</span>
+          </h1>
           <p>
             Tailor your listening experience with bespoke dynamic drivers from
             the new YX1 Wireless Earphones. Enjoy incredible high-fidelity sound
@@ -86,20 +90,26 @@ const EarPhonesDetails = () => {
         <h1 className="head">YOU MAY ALSO LIKE</h1>
         <div className="main">
           <div>
-            <img src="appImgs/gens/gen4.png" alt="ear pads" />
+            <div className="img-container">
+              <img src="appImgs/gens/gen4.png" alt="ear pads" />
+            </div>
 
             <h1>XX99 MARK 1</h1>
             <button className="see-products">SEE PRODUCTS</button>
           </div>
           <div>
-            <img src="appImgs/gens/gen2.png" alt="ear pads" />
+            <div className="img-container">
+              <img src="appImgs/gens/gen2.png" alt="ear pads" />
+            </div>
 
             <h1>XX59 </h1>
             <button className="see-products">SEE PRODUCTS</button>
           </div>
           <div>
-            <img src="appImgs/gens/gen3.png" alt="ear pads" />
-
+            {" "}
+            <div className="img-container">
+              <img src="appImgs/gens/gen3.png" alt="ear pads" />
+            </div>
             <h1>ZX9 SPEAKER</h1>
             <button className="see-products">SEE PRODUCTS</button>
           </div>

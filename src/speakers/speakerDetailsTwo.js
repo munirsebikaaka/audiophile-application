@@ -8,12 +8,14 @@ const SpeakerDetailsTwo = () => {
     <div className="pro-details">
       <DetailsNav />
       <section className="sections1">
-        <img
-          className="img"
-          src="appImgs/speaker-imgs/speaker2.png"
-          alt="head bart"
-        />
-        <div>
+        <div className="img-container">
+          <img
+            className="img"
+            src="appImgs/speaker-imgs/speaker2.png"
+            alt="head bart"
+          />
+        </div>
+        <div className="detail-container">
           <h4>NEW PRODUCTS</h4>
           <h1>ZX7 SPEAKER</h1>
           <p>
@@ -49,9 +51,9 @@ const SpeakerDetailsTwo = () => {
           </p>
         </div>
         <div className="bonus">
-          <ul>
-            <h1>IN THE BOX</h1>
+          <h1>IN THE BOX</h1>
 
+          <ul>
             <li>
               <span>1x</span>Speaker Unit
             </li>
@@ -85,19 +87,25 @@ const SpeakerDetailsTwo = () => {
         <h1 className="head">YOU MAY ALSO LIKE</h1>
         <div className="main">
           <div>
-            <img src="appImgs/gens/gen3.png" alt="ear pads" />
+            <div className="img-container">
+              <img src="appImgs/gens/gen3.png" alt="ear pads" />
+            </div>
 
             <h1>ZX9 SPEAKER</h1>
             <button className="see-products">SEE PRODUCTS</button>
           </div>
           <div>
-            <img src="appImgs/gens/gen4.png" alt="ear pads" />
+            <div className="img-container">
+              <img src="appImgs/gens/gen4.png" alt="ear pads" />
+            </div>
 
             <h1>XX99 MARK 1</h1>
             <button className="see-products">SEE PRODUCTS</button>
           </div>
           <div>
-            <img src="appImgs/gens/gen2.png" alt="ear pads" />
+            <div className="img-container">
+              <img src="appImgs/gens/gen2.png" alt="ear pads" />
+            </div>
             <h1>XX59</h1>
             <button className="see-products">SEE PRODUCTS</button>
           </div>

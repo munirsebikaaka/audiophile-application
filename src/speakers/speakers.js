@@ -13,16 +13,19 @@ const Speaker = () => {
       </div>
 
       <section>
-        <img
-          className="speaker-img"
-          src="appImgs/speaker-imgs/speaker1.png"
-          alt="sound speaker"
-        />
-        <div>
+        <div className="img-container">
+          <img
+            className="speaker-img"
+            src="appImgs/speaker-imgs/speaker1.png"
+            alt="sound speaker"
+          />
+        </div>
+        <div className="about">
           <h4>NEW PRODUCTS</h4>
           <h1>
             ZX9
-            <br /> SPEAKER
+            <br />
+            <span> SPEAKER</span>
           </h1>
           <p>
             Upgrade your sound system with the all new ZX9 active speaker. It’s
@@ -36,11 +39,11 @@ const Speaker = () => {
         </div>
       </section>
 
-      <section>
-        <div>
+      <section className="sec-section">
+        <div className="about">
           <h1>
             ZX7
-            <br /> SPEAKER
+            <br /> <span> SPEAKER</span>
           </h1>
           <p>
             Stream high quality sound wirelessly with minimal loss. The ZX7
@@ -52,11 +55,13 @@ const Speaker = () => {
             SEE PRODUCTS
           </NavLink>
         </div>
-        <img
-          className="speaker-img"
-          src="appImgs/speaker-imgs/speaker2.png"
-          alt="product"
-        />
+        <div className="img-container">
+          <img
+            className="speaker-img"
+            src="appImgs/speaker-imgs/speaker2.png"
+            alt="product"
+          />
+        </div>
       </section>
 
       <Samples />

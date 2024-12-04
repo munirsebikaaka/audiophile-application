@@ -8,12 +8,14 @@ const HeadPhonesDetailsTwo = () => {
     <div className="pro-details">
       <DetailsNav />
       <section className="sections1">
-        <img
-          className="img"
-          src="appImgs/headphones-imgs/head1.png"
-          alt="head bart"
-        />
-        <div>
+        <div className="img-container">
+          <img
+            className="img"
+            src="appImgs/headphones-imgs/head1.png"
+            alt="head bart"
+          />
+        </div>
+        <div className="detail-container">
           <h4>NEW PRODUCTS</h4>
           <h1>XX99 MARK I HEADPHONES</h1>
           <p>
@@ -85,18 +87,24 @@ const HeadPhonesDetailsTwo = () => {
         <h1 className="head">YOU MAY ALSO LIKE</h1>
         <div className="main">
           <div>
-            <img src="appImgs/gens/gen5.png" alt="ear pads" />
+            <div className="img-container">
+              <img src="appImgs/gens/gen5.png" alt="ear pads" />
+            </div>
             <h1>XX99 MARK II</h1>
             <button className="see-products">SEE PRODUCTS</button>
           </div>
           <div>
-            <img src="appImgs/gens/gen2.png" alt="ear pads" />
+            <div className="img-container">
+              <img src="appImgs/gens/gen2.png" alt="ear pads" />
+            </div>
 
             <h1>XX59</h1>
             <button className="see-products">SEE PRODUCTS</button>
           </div>
           <div>
-            <img src="appImgs/gens/gen3.png" alt="ear pads" />
+            <div className="img-container">
+              <img src="appImgs/gens/gen3.png" alt="ear pads" />
+            </div>
 
             <h1>ZX9 SPEAKER</h1>
             <button className="see-products">SEE PRODUCTS</button>

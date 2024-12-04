@@ -12,16 +12,19 @@ const HeadPhones = () => {
         <h1>HEADPHONES</h1>
       </div>
       <section>
-        <img
-          className="img"
-          src="appImgs/headphones-imgs/head2.png"
-          alt="headphone barts"
-        />
-        <div>
+        <div className="img-container">
+          <img
+            className="img"
+            src="appImgs/headphones-imgs/head2.png"
+            alt="headphone barts"
+          />
+        </div>
+        <div className="about">
           <h4>NEW PRODUCTS</h4>
           <h1>
             XX99 MARK II
-            <br /> HEADPHONES
+            <br />
+            <span> HEADPHONES</span>
           </h1>
           <p>
             The new XX99 Mark II headphones is the pinnacle of pristine audio.
@@ -34,10 +37,10 @@ const HeadPhones = () => {
         </div>
       </section>
 
-      <section>
-        <div>
+      <section className="sec-section">
+        <div className="about">
           <h1>
-            XX99 MARK I<br /> HEADPHONES
+            XX99 MARK I<br /> <span> HEADPHONES</span>
           </h1>
           <p>
             As the gold standard for headphones, the classic XX99 Mark I offers
@@ -48,23 +51,27 @@ const HeadPhones = () => {
             SEE PRODUCTS
           </NavLink>
         </div>
-        <img
-          className="img"
-          src="appImgs/headphones-imgs/head1.png"
-          alt="headphone barts"
-        />
+        <div className="img-container">
+          <img
+            className="img"
+            src="appImgs/headphones-imgs/head1.png"
+            alt="headphone barts"
+          />
+        </div>
       </section>
 
       <section>
-        <img
-          className="img"
-          src="appImgs/headphones-imgs/head3.png"
-          alt="headphone barts"
-        />
-        <div>
+        <div className="img-container">
+          <img
+            className="img"
+            src="appImgs/headphones-imgs/head3.png"
+            alt="headphone barts"
+          />
+        </div>
+        <div className="about">
           <h1>
             XX59
-            <br /> HEADPHONES
+            <br /> <span>HEADPHONES</span>
           </h1>
           <p>
             Enjoy your audio almost anywhere and customize it to your specific

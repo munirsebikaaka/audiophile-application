@@ -1,7 +1,7 @@
 const Bringing = () => {
   return (
     <div className="bringing">
-      <div>
+      <div className="about">
         <h1>
           BRINGING YOU THE <span>BEST</span> AUDIO GEAR
         </h1>

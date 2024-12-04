@@ -13,12 +13,14 @@ const EarPhones = () => {
       </div>
 
       <section>
-        <img
-          className="earphones-img"
-          src="appImgs/earphones-imgs/ear.png"
-          alt="product"
-        />
-        <div>
+        <div className="img-container">
+          <img
+            className="earphones-img"
+            src="appImgs/earphones-imgs/ear.png"
+            alt="product"
+          />
+        </div>
+        <div className="about">
           <h4>NEW PRODUCTS</h4>
           <h1>
             YX1 WIRELESS

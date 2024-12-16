@@ -1,6 +1,8 @@
+import AddToCart from "../addToCart";
 import AppNav from "../AppNav";
 import Bringing from "../bringing";
 import Footer from "../Footer";
+import Login from "../login";
 import Samples from "../samples";
 import { NavLink } from "react-router-dom";
 

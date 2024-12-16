@@ -660,6 +660,248 @@ footer {
   height: 270px;
 }
 
+/* ADD TO CART */
+.add-to-cart,
+.cart,
+.cart1,
+.cart2,
+.inner-cart {
+  display: flex;
+}
+body {
+  position: relative;
+}
+.add-to-cart {
+  width: 400px;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 2.5%;
+  right: 10%;
+  background-color: #c1c1c1;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  border-radius: 11px;
+}
+.cart,
+.cart1,
+.cart2 {
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+}
+.inner-cart {
+  align-items: center;
+  gap: 10px;
+}
+.inner-cart .name {
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.inner-cart .price {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.cart1 .btn {
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  width: 96px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 2px;
+}
+.cart2 h1 {
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.cart2 p {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.59px;
+}
+.add-to-cart .see-products {
+  width: 80%;
+}
+.cart h1 {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.59px;
+  letter-spacing: 1.2857142686843872px;
+}
+.cart p {
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-decoration-line: underline;
+}
+/* SUMMERY */
+.summery {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sum {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+.summery .see-products {
+  width: 80%;
+}
+.grand {
+  color: var(--semiMainColor);
+}
+.summery .btn {
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.thanks {
+  max-width: 640px;
+  padding-left: 40px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: absolute;
+  top: 3%;
+  right: 15%;
+  background-color: #2f2f2f;
+}
+.thanks .mark {
+  width: 64px;
+  height: 64px;
+  background-color: var(--semiMainColor);
+  color: var(--mainColor);
+  border-radius: 50%;
+}
+.thanks h1 {
+  font-family: Manrope;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 1.1428571939468384px;
+}
+.inner-thx {
+  display: flex;
+  gap: 10px;
+  border-bottom: 1px solid #c1c0c0;
+}
+.thax-main {
+  display: flex;
+  background-color: var(--semiBackground);
+  flex-direction: column;
+  align-items: center;
+  border-top-left-radius: 11px;
+  border-bottom-left-radius: 11px;
+}
+.thx-det {
+  display: flex;
+  align-items: center;
+}
+.thax-details {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: center;
+  width: 95%;
+  border-radius: 11px;
+}
+.left {
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16.39px;
+  letter-spacing: -0.2142857164144516px;
+}
+.thanks-total {
+  background-color: var(--blackColor);
+  color: var(--mainColor);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  border-top-right-radius: 11px;
+  border-bottom-right-radius: 11px;
+}
+.thanks-total h1 {
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.thanks-total p {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.59px;
+}
+.thax-details .name {
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.thanks .intro {
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: -18px;
+}
+.thanks .see-products {
+  width: 95%;
+}
+
+/* LOGINS */
+.login-cell {
+  border: 5px solid red;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.login-cell label {
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16.39px;
+  letter-spacing: -0.2142857164144516px;
+}
+.login-cell .login-input {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+  width: 300px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.login-cell .dets .inner-dets {
+  border: 1px solid red;
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 30px;
+}
+.login-cell .dets .inner-dets input {
+  width: 100%;
+}
 /* MEDIA QUARRY */
 @media (max-width: 900px) {
   /* NAVIGATIONS */

@@ -9,10 +9,12 @@ import HeadPhonesDetailsTwo from "./headPhones/headphoneDetailsTwo";
 import SpeakerDetails from "./speakers/speakerDetails";
 import SpeakerDetailsTwo from "./speakers/speakerDetailsTwo";
 import Speaker from "./speakers/speakers";
+import AddToCart from "./addToCart";
 
 function App() {
   return (
     <div className="App">
+      {/* <AddToCart /> */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />

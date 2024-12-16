@@ -1,6 +1,7 @@
 import DetailsNav from "../AppDetailsNav";
 import Bringing from "../bringing";
 import Footer from "../Footer";
+import Login from "../login";
 import Samples from "../samples";
 
 const HeadPhonesDetails = () => {
@@ -113,6 +114,7 @@ const HeadPhonesDetails = () => {
       <Samples />
       <Bringing />
       <Footer />
+      <Login />
     </div>
   );
 };

@@ -29,6 +29,9 @@ const AppNav = () => {
           </li>
         </ul>
         <IoCartOutline className="icon" />
+        <NavLink to={"/login"} className="see-products">
+          CHECKOUT
+        </NavLink>
       </nav>
     </div>
   );

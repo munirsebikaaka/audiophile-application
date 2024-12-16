@@ -1,5 +1,3 @@
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
-
 const AddToCart = () => {
   return (
     <div className="add-to-cart">

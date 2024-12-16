@@ -3,7 +3,7 @@ import Bringing from "../bringing";
 import Footer from "../Footer";
 import DetailsNav from "../AppDetailsNav";
 
-const HeadPhonesDetailsTwo = () => {
+const HeadPhonesDetailsTwo = ({ setAddToCart }) => {
   return (
     <div className="pro-details">
       <DetailsNav />
@@ -26,7 +26,9 @@ const HeadPhonesDetailsTwo = () => {
           <h3 className="price"> $$ 1,750</h3>
           <span>
             <button className="increase">icon 1 icon</button>
-            <button className="increase2">ADD TO CART</button>
+            <button onClick={() => setAddToCart(true)} className="increase2">
+              ADD TO CART
+            </button>
           </span>
         </div>
       </section>

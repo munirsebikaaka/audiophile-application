@@ -1,15 +1,16 @@
 import DetailsNav from "./AppDetailsNav";
 import Footer from "./Footer";
+import { RiSecurePaymentFill } from "react-icons/ri";
 
-const Login = () => {
+const Login = ({ setShowThanks }) => {
   return (
-    <div>
+    <div className="login">
       <DetailsNav />
-      <h1>CHECKOUT</h1>
       <div className="login-cell">
-        <div>
+        <div className="main-login">
+          <h1 className="check">CHECKOUT</h1>
           <div className="dets">
-            <h1>BILLING DETAILS</h1>
+            <h1 className="main-head">BILLING DETAILS</h1>
             <div className="inner-dets">
               <div>
                 <label>Name</label> <br />
@@ -25,75 +26,76 @@ const Login = () => {
                 <input
                   className="login-input"
                   type="text"
-                  placeholder="munirsebikaaka@gmail.com"
+                  placeholder="munirs@gmail.com"
                 />
               </div>
             </div>
             <label>Phonenumber</label>
             <br />
             <input
-              className="login-input"
+              className="login-phone"
               type="text"
               placeholder="0742083075"
             />
           </div>
-          <div>
+          <div className="address">
+            <h1 className="main-head">ADDRESS</h1>
             <label>Address</label>
             <br />
             <input
-              className="login-input"
+              className="input-adress"
               type="text"
               placeholder="1113 Williams Avenue"
             />
-            <div>
-              <label>ZIP Code</label>
-              <br />
-              <input className="login-input" type="text" placeholder="10001" />
-              <label>City</label>
-              <br />
-              <input
-                className="login-input"
-                type="text"
-                placeholder="New york"
-              />
-            </div>
-            <label>Country</label>
-            <br />
-            <input
-              className="login-input"
-              type="text"
-              placeholder="United States"
-            />
-          </div>
-          <div>
-            <h1>PAYMENT DETAILS</h1>
-            <div>
-              <p>Payment details</p>
+            <div className="inner-address">
               <div>
-                <label>e-Money Number</label>
+                <label>ZIP Code</label>
                 <br />
                 <input
                   className="login-input"
                   type="text"
-                  placeholder="238521993"
+                  placeholder="10001"
+                />
+              </div>
+              <div>
+                <label>City</label>
+                <br />
+
+                <input
+                  className="login-input"
+                  type="text"
+                  placeholder="New york"
                 />
               </div>
             </div>
-
+            <label>Country</label>
+            <br />
+            <input
+              className="login-country"
+              type="text"
+              placeholder="United States"
+            />
+          </div>
+          <div className="payments-dts">
+            <h1 className="main-head">PAYMENT DETAILS</h1>
             <div>
-              <div>
-                <input type="checkbox" />
-                <p>e-Money</p>
+              <div className="checks">
+                <input type="checkbox" className="check-input" />
+                <p className="money">e-Money</p>
               </div>
-              <div>
-                <input type="checkbox" />
-                <p>Cash on Derivery</p>
-              </div>
-              <div>
-                <input type="checkbox" />
-                <p>e-MoneyPIN</p>
+              <div className="checks">
+                <input type="checkbox" className="check-input" />
+                <p className="money">Cash on Derivery</p>
               </div>
             </div>
+          </div>
+          <div className="payment">
+            <RiSecurePaymentFill className="icon" />
+            <p>
+              The ‘Cash on Delivery’ option enables you to pay in cash when our
+              delivery courier arrives at your residence. Just make sure your
+              address is correct so that your order will not be cancelled.
+            </p>
           </div>
         </div>
         <div className="summery">
@@ -148,7 +150,9 @@ const Login = () => {
             <h1>GRAND TOTAL</h1>
             <p className="grand">$5,446</p>
           </div>
-          <button className="see-products">CHECKOUT</button>
+          <button onClick={() => setShowThanks(true)} className="see-products">
+            CHECKOUT
+          </button>
         </div>
       </div>
       <Footer />

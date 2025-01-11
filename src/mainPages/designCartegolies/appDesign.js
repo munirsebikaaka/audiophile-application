@@ -13,6 +13,8 @@ const AppDesign = () => {
       <section>
         <div>
           <div>
+            <img src="imgs/appD/Airfilter.png" alt="card" />
+
             <div>
               <h1>AIRFILTER</h1>
               <p>
@@ -22,6 +24,8 @@ const AppDesign = () => {
             </div>
           </div>
           <div>
+            <img src="imgs/appD/Eyecam.png" alt="card" />
+
             <div>
               <h1>EYECAM</h1>
               <p>
@@ -32,6 +36,8 @@ const AppDesign = () => {
           </div>
           <div>
             <div>
+              <img src="imgs/appD/Faceit.png" alt="card" />
+
               <h1>FACEIT</h1>
               <p>
                 Get to meet your favorite internet superstar with the faceit app

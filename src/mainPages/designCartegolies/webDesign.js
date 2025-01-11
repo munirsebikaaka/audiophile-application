@@ -13,6 +13,7 @@ const WebDesign = () => {
       <section>
         <div>
           <div>
+            <img src="imgs/webD/expr.png" alt="card" />
             <div>
               <h1>EXPRESS</h1>
               <p>A multi-carrier shipping website for ecommerce businesses</p>
@@ -21,6 +22,7 @@ const WebDesign = () => {
           <div>
             <div>
               <h1>TRANSFER</h1>
+              <img src="imgs/webD/trans.png" alt="card" />
               <p>
                 Site for low-cost money transfers and sending money within
                 seconds
@@ -28,6 +30,8 @@ const WebDesign = () => {
             </div>
           </div>
           <div>
+            <img src="imgs/webD/phot.png" alt="card" />
+
             <div>
               <h1>PHOTON</h1>
               <p>
@@ -39,6 +43,8 @@ const WebDesign = () => {
         </div>
         <div>
           <div>
+            <img src="imgs/webD/build.jpg" alt="card" />
+
             <div>
               <h1>BUILDER</h1>
               <p>
@@ -47,6 +53,8 @@ const WebDesign = () => {
             </div>
           </div>
           <div>
+            <img src="imgs/webD/blog.png" alt="card" />
+
             <div>
               <h1>BLOGR</h1>
               <p>
@@ -55,6 +63,8 @@ const WebDesign = () => {
             </div>
           </div>
           <div>
+            <img src="imgs/webD/cam.png" alt="card" />
+
             <div>
               <h1>CAMP</h1>
               <p>

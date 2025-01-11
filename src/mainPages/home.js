@@ -42,6 +42,7 @@ const HomePage = () => {
       </section>
       <section className="section3">
         <div>
+          <img src="imgs/home/passion.png" alt="sticker" />
           <h1>PASSIONATE</h1>
           <p>
             Each project starts with an in-depth brand research to ensure we
@@ -50,6 +51,7 @@ const HomePage = () => {
           </p>
         </div>
         <div>
+          <img src="imgs/home/resource.png" alt="sticker" />
           <h1>RESOURCEFUL</h1>
           <p>
             Everything that we do has a strategic purpose. We use an agile
@@ -58,6 +60,8 @@ const HomePage = () => {
           </p>
         </div>
         <div>
+          <img src="imgs/home/freindly.png" alt="sticker" />
+
           <h1>FRIENDLY</h1>
           <p>
             We are a group of enthusiastic folks who know how to put people

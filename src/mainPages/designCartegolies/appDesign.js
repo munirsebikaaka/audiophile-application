@@ -48,6 +48,8 @@ const AppDesign = () => {
         <div>
           <div>
             <div>
+              <img src="imgs/appD/Dark.png" alt="card" />
+
               <h1>TODO</h1>
               <p>
                 A todo app that features cloud sync with light and dark mode
@@ -55,6 +57,8 @@ const AppDesign = () => {
             </div>
           </div>
           <div>
+            <img src="imgs/appD/Mobile.png" alt="card" />
+
             <div>
               <h1>LOOPSTUDIOS</h1>
               <p>A VR experience app made for Loopstudios </p>

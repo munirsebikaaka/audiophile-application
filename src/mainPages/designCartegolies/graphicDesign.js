@@ -13,18 +13,24 @@ const GraphicDesign = () => {
       <section>
         <div>
           <div>
+            <img src="imgs/graphicD/graph2.png" alt="card" />
+
             <div>
               <h1>TIM BROWN</h1>
               <p>A book cover designed for Tim Brown’s new release, ‘Change’</p>
             </div>
           </div>
           <div>
+            <img src="imgs/graphicD/graph3.jpg" alt="card" />
+
             <div>
               <h1>BOXED WATER</h1>
               <p>A simple packaging concept made for Boxed Water</p>
             </div>
           </div>
           <div>
+            <img src="imgs/graphicD/graph1.png" alt="card" />
+
             <div>
               <h1>SCIENCE!</h1>
               <p>A poster made in collaboration with the Federal Art Project</p>

@@ -17,10 +17,10 @@ const OurCompony = () => {
             and digital experiences that connect with our clients’ audiences.
           </p>
         </div>
-        <p>img</p>
+        <img src="imgs/about/Group1.jpg" alt="card" />
       </section>
       <section>
-        <p>img</p>
+        <img src="imgs/about/Group2.jpg" alt="card" />
         <div>
           <h1>World-class talent</h1>
           <p>
@@ -56,7 +56,7 @@ const OurCompony = () => {
             take action and drive real results.
           </p>
         </div>
-        <p>img</p>
+        <img src="imgs/about/Group3.png" alt="card" />
       </section>
       <Footer />
     </main>

@@ -19,26 +19,37 @@ body {
   font-family: Jost;
 }
 .section1,
-nav {
+nav,
+.home .section3,
+.home .section2,
+.design .section2,
+.ours .section1,
+.ours .section2,
+.ours .section3,
+.countries {
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .section1,
 nav,
-nav ul {
+nav ul,
+.home .section3,
+.home .section3 div,
+.design .section2 .main,
+.design .section2 .main div,
+.ours .section1,
+.ours .section2,
+.ours .section3,
+.countries,
+.countries div,
+.home .section2 {
   display: flex;
 }
 .section1 h1 {
   font-size: 48px;
   font-weight: 500;
   line-height: 48px;
-  /* width: 540px; */
-  /* height: 165px; */
-  /* top: 300px; */
-  /* left: 260px; */
-  /* gap: 0px; */
-  /* opacity: 0px; */
 }
 .section1 p {
   font-size: 16px;
@@ -58,17 +69,16 @@ button {
   height: 56px;
   background-color: var(--main-app-color);
   border-radius: 8px;
-  /* top: 594px;
-left: 260px;
-gap: 0px;
-opacity: 0px; */
 }
 
-nav {
-  border: 1px solid red;
+nav,
+.countries {
   justify-content: space-between;
   align-items: center;
   padding: 30px 0;
+}
+.countries {
+  padding: 0;
 }
 
 nav ul {
@@ -79,6 +89,66 @@ nav ul li {
   font-family: Jost;
   font-size: 14px;
   font-weight: 400;
-  /* line-height: 14px; */
   letter-spacing: 2px;
+  cursor: pointer;
+}
+nav ul li:hover {
+  border-bottom: 1px solid var(--footer-background-color);
+}
+.home .section2 div {
+  border: 1px solid red;
+  width: 100%;
+}
+.big {
+  height: 501.5px;
+  background-size: cover;
+  background-position: center;
+}
+.small {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+.home .section3 {
+  align-items: center;
+  gap: 30px;
+}
+.home .section3 div,
+.design .section2 .main div,
+.countries div {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.design .section2 .main div,
+.countries div {
+  gap: 0;
+}
+
+.home .section3 div p,
+.design .section2 .main div p {
+  text-align: center;
+}
+.section3 img {
+  width: 180px;
+  height: 150px;
+}
+/* WEB DESIGN */
+.design .section2 .main {
+  justify-content: space-between;
+  gap: 30px;
+}
+.design .section2 img {
+  width: 100%;
+  height: 350px;
+}
+
+/* OURS */
+.ours .section1,
+.ours .section2,
+.ours .section3 {
+  border: 1px solid red;
+}
+.countries div img {
+  height: 100px;
 }

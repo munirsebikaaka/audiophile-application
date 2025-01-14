@@ -3,8 +3,17 @@ import AppNav from "./navigations/appNavigation";
 import Footer from "../generals/footer";
 
 const HomePage = () => {
+  const styles = {
+    backgroundImage: `url('imgs/home/back1.png')`,
+  };
+  const styles1 = {
+    backgroundImage: `url('imgs/home/back2.png')`,
+  };
+  const styles2 = {
+    backgroundImage: `url('imgs/home/back3.jpg')`,
+  };
   return (
-    <main>
+    <main className="home">
       <AppNav />
       <section className="section1">
         <div>
@@ -19,24 +28,24 @@ const HomePage = () => {
         <img src="imgs/home/hero-img.png" alt="phone structure" />
       </section>
       <section className="section2">
-        <div>
+        <div className="big" style={styles}>
           <h1>web design </h1>
-          <button>
+          <a href="#">
             view project <FiChevronRight />
-          </button>
+          </a>
         </div>
         <div>
-          <div>
+          <div className="small" style={styles1}>
             <h1>app design </h1>
-            <button>
+            <a href="#">
               view project <FiChevronRight />
-            </button>
+            </a>
           </div>
-          <div>
+          <div className="small" style={styles2}>
             <h1>graphic design </h1>
-            <button>
+            <a href="#">
               view project <FiChevronRight />
-            </button>
+            </a>
           </div>
         </div>
       </section>

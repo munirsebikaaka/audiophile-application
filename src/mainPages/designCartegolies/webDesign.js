@@ -2,16 +2,16 @@ import { FiChevronRight } from "react-icons/fi";
 import Footer from "../../generals/footer";
 const WebDesign = () => {
   return (
-    <main>
-      <section>
+    <main className="design">
+      <section className="section1">
         <h1>Web Design</h1>
         <p>
           We build websites that serve as powerful marketing tools and bring
           memorable brand experiences.
         </p>
       </section>
-      <section>
-        <div>
+      <section className="section2">
+        <div className="main">
           <div>
             <img src="imgs/webD/expr.png" alt="card" />
             <div>
@@ -21,8 +21,9 @@ const WebDesign = () => {
           </div>
           <div>
             <div>
-              <h1>TRANSFER</h1>
               <img src="imgs/webD/trans.png" alt="card" />
+              <h1>TRANSFER</h1>
+
               <p>
                 Site for low-cost money transfers and sending money within
                 seconds
@@ -41,7 +42,7 @@ const WebDesign = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="main">
           <div>
             <img src="imgs/webD/build.jpg" alt="card" />
 
@@ -75,7 +76,7 @@ const WebDesign = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section className="designs-sec">
         <div>
           <h1>APP DESIGN</h1>
           <button>

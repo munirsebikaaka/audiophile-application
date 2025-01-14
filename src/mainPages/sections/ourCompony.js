@@ -4,9 +4,9 @@ import AppNav from "../navigations/appNavigation";
 
 const OurCompony = () => {
   return (
-    <main>
+    <main className="ours">
       <AppNav />
-      <section>
+      <section className="section1">
         <div>
           <h1>About Us</h1>
           <p>
@@ -19,7 +19,7 @@ const OurCompony = () => {
         </div>
         <img src="imgs/about/Group1.jpg" alt="card" />
       </section>
-      <section>
+      <section className="section2">
         <img src="imgs/about/Group2.jpg" alt="card" />
         <div>
           <h1>World-class talent</h1>
@@ -40,7 +40,7 @@ const OurCompony = () => {
       </section>
       <Countries />
 
-      <section>
+      <section className="section3">
         <div>
           <h1>The real deal</h1>
           <p>

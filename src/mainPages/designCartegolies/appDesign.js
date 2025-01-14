@@ -2,16 +2,16 @@ import { FiChevronRight } from "react-icons/fi";
 import Footer from "../../generals/footer";
 const AppDesign = () => {
   return (
-    <main>
-      <section>
+    <main className="design">
+      <section className="section1">
         <h1>App Design</h1>
         <p>
           Our mobile designs bring intuitive digital solutions to your customers
           right at their fingertips.
         </p>
       </section>
-      <section>
-        <div>
+      <section className="section2">
+        <div className="main">
           <div>
             <img src="imgs/appD/Airfilter.png" alt="card" />
 
@@ -45,7 +45,7 @@ const AppDesign = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="main">
           <div>
             <div>
               <img src="imgs/appD/Dark.png" alt="card" />
@@ -66,7 +66,7 @@ const AppDesign = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section className="design-sec">
         <div>
           <h1>WEB DESIGN</h1>
           <button>

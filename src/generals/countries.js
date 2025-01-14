@@ -1,6 +1,6 @@
 const Countries = () => {
   return (
-    <section>
+    <section className="countries">
       <div>
         <img src="imgs/counts/count1.png" alt="card" />
         <h1>CANADA</h1>

@@ -1,6 +1,6 @@
 import { FiChevronRight } from "react-icons/fi";
 import Footer from "../../generals/footer";
-const WebDesign = () => {
+const WebDesign = ({ graphicBackground, appBackground }) => {
   return (
     <main className="design">
       <section className="section1">
@@ -14,16 +14,16 @@ const WebDesign = () => {
         <div className="main">
           <div>
             <img src="imgs/webD/expr.png" alt="card" />
-            <div>
+            <div className="det">
               <h1>EXPRESS</h1>
               <p>A multi-carrier shipping website for ecommerce businesses</p>
             </div>
           </div>
           <div>
-            <div>
-              <img src="imgs/webD/trans.png" alt="card" />
-              <h1>TRANSFER</h1>
+            <img src="imgs/webD/trans.png" alt="card" />
 
+            <div className="det">
+              <h1>TRANSFER</h1>
               <p>
                 Site for low-cost money transfers and sending money within
                 seconds
@@ -32,8 +32,7 @@ const WebDesign = () => {
           </div>
           <div>
             <img src="imgs/webD/phot.png" alt="card" />
-
-            <div>
+            <div className="det">
               <h1>PHOTON</h1>
               <p>
                 A state-of-the-art music player with high-resolution audio and
@@ -45,8 +44,7 @@ const WebDesign = () => {
         <div className="main">
           <div>
             <img src="imgs/webD/build.jpg" alt="card" />
-
-            <div>
+            <div className="det">
               <h1>BUILDER</h1>
               <p>
                 Connects users with local contractors based on their location
@@ -56,7 +54,7 @@ const WebDesign = () => {
           <div>
             <img src="imgs/webD/blog.png" alt="card" />
 
-            <div>
+            <div className="det">
               <h1>BLOGR</h1>
               <p>
                 Blogr is a platform for creating an online blog or publication
@@ -66,7 +64,7 @@ const WebDesign = () => {
           <div>
             <img src="imgs/webD/cam.png" alt="card" />
 
-            <div>
+            <div className="det">
               <h1>CAMP</h1>
               <p>
                 Get expert training in coding, data, design, and digital
@@ -77,17 +75,17 @@ const WebDesign = () => {
         </div>
       </section>
       <section className="designs-sec">
-        <div>
+        <div style={appBackground}>
           <h1>APP DESIGN</h1>
-          <button>
+          <a href="#">
             view project <FiChevronRight />
-          </button>
+          </a>
         </div>
-        <div>
+        <div style={graphicBackground}>
           <h1>GRAPHIC DESIGN</h1>
-          <button>
+          <a href="#">
             view project <FiChevronRight />
-          </button>
+          </a>
         </div>
       </section>
       <Footer />

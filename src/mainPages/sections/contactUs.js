@@ -2,8 +2,8 @@ import Footer from "../../generals/footer";
 
 const ContactUs = () => {
   return (
-    <main>
-      <section>
+    <main className="contact">
+      <section className="section1">
         <div>
           <h1>Contact Us</h1>
           <p>

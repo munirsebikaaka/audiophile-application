@@ -1,6 +1,6 @@
 import { FiChevronRight } from "react-icons/fi";
 import Footer from "../../generals/footer";
-const AppDesign = () => {
+const AppDesign = ({ webBackground, graphicBackground }) => {
   return (
     <main className="design">
       <section className="section1">
@@ -14,8 +14,7 @@ const AppDesign = () => {
         <div className="main">
           <div>
             <img src="imgs/appD/Airfilter.png" alt="card" />
-
-            <div>
+            <div className="det">
               <h1>AIRFILTER</h1>
               <p>
                 Solving the problem of poor indoor air quality by filtering the
@@ -25,8 +24,7 @@ const AppDesign = () => {
           </div>
           <div>
             <img src="imgs/appD/Eyecam.png" alt="card" />
-
-            <div>
+            <div className="det">
               <h1>EYECAM</h1>
               <p>
                 Product that lets you edit your favorite photos and videos at
@@ -35,9 +33,8 @@ const AppDesign = () => {
             </div>
           </div>
           <div>
-            <div>
-              <img src="imgs/appD/Faceit.png" alt="card" />
-
+            <img src="imgs/appD/Faceit.png" alt="card" />
+            <div className="det">
               <h1>FACEIT</h1>
               <p>
                 Get to meet your favorite internet superstar with the faceit app
@@ -47,9 +44,8 @@ const AppDesign = () => {
         </div>
         <div className="main">
           <div>
-            <div>
-              <img src="imgs/appD/Dark.png" alt="card" />
-
+            <img src="imgs/appD/Dark.png" alt="card" />
+            <div className="det">
               <h1>TODO</h1>
               <p>
                 A todo app that features cloud sync with light and dark mode
@@ -58,26 +54,25 @@ const AppDesign = () => {
           </div>
           <div>
             <img src="imgs/appD/Mobile.png" alt="card" />
-
-            <div>
+            <div className="det">
               <h1>LOOPSTUDIOS</h1>
               <p>A VR experience app made for Loopstudios </p>
             </div>
           </div>
         </div>
       </section>
-      <section className="design-sec">
-        <div>
+      <section className="designs-sec">
+        <div style={webBackground}>
           <h1>WEB DESIGN</h1>
-          <button>
+          <a href="#">
             view project <FiChevronRight />
-          </button>
+          </a>
         </div>
-        <div>
+        <div style={graphicBackground}>
           <h1>GRAPHIC DESIGN</h1>
-          <button>
+          <a href="#">
             view project <FiChevronRight />
-          </button>
+          </a>
         </div>
       </section>
       <Footer />

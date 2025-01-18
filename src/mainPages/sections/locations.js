@@ -3,12 +3,12 @@ import AppNav from "../navigations/appNavigation";
 
 const Locations = () => {
   return (
-    <main>
+    <main className="locations">
       <AppNav />
       <section>
         <div>
           <h1>Canada</h1>
-          <div>
+          <div className="details">
             <div>
               <h3>Designo Central Office</h3>
               <p>3886 Wellington Street?</p>
@@ -27,7 +27,7 @@ const Locations = () => {
         <img src="imgs/lacations/Group2.png" alt="card" />
         <div>
           <h1>Australia</h1>
-          <div>
+          <div className="details">
             <div>
               <h3>Designo AU Office</h3>
               <p>19 Balonne Street</p>
@@ -45,7 +45,7 @@ const Locations = () => {
       <section>
         <div>
           <h1>United Kingdom</h1>
-          <div>
+          <div className="details">
             <div>
               <h3>Designo UK Office</h3>
               <p>13 Colorado Way</p>

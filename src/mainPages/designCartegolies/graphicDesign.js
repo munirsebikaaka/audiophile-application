@@ -1,6 +1,6 @@
 import { FiChevronRight } from "react-icons/fi";
 import Footer from "../../generals/footer";
-const GraphicDesign = () => {
+const GraphicDesign = ({ appBackground, webBackground }) => {
   return (
     <main className="design">
       <section className="section1">
@@ -15,7 +15,7 @@ const GraphicDesign = () => {
           <div>
             <img src="imgs/graphicD/graph2.png" alt="card" />
 
-            <div>
+            <div className="det">
               <h1>TIM BROWN</h1>
               <p>A book cover designed for Tim Brown’s new release, ‘Change’</p>
             </div>
@@ -23,7 +23,7 @@ const GraphicDesign = () => {
           <div>
             <img src="imgs/graphicD/graph3.jpg" alt="card" />
 
-            <div>
+            <div className="det">
               <h1>BOXED WATER</h1>
               <p>A simple packaging concept made for Boxed Water</p>
             </div>
@@ -31,25 +31,25 @@ const GraphicDesign = () => {
           <div>
             <img src="imgs/graphicD/graph1.png" alt="card" />
 
-            <div>
+            <div className="det">
               <h1>SCIENCE!</h1>
               <p>A poster made in collaboration with the Federal Art Project</p>
             </div>
           </div>
         </div>
       </section>
-      <section className="design-sec">
-        <div>
+      <section className="designs-sec">
+        <div style={appBackground}>
           <h1>APP DESIGN</h1>
-          <button>
+          <a href="#">
             view project <FiChevronRight />
-          </button>
+          </a>
         </div>
-        <div>
+        <div style={webBackground}>
           <h1>WEB DESIGN</h1>
-          <button>
+          <a href="#">
             view project <FiChevronRight />
-          </button>
+          </a>
         </div>
       </section>
       <Footer />

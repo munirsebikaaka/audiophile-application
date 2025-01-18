@@ -2,21 +2,12 @@ import { FiChevronRight } from "react-icons/fi";
 import AppNav from "./navigations/appNavigation";
 import Footer from "../generals/footer";
 
-const HomePage = () => {
-  const styles = {
-    backgroundImage: `url('imgs/home/back1.png')`,
-  };
-  const styles1 = {
-    backgroundImage: `url('imgs/home/back2.png')`,
-  };
-  const styles2 = {
-    backgroundImage: `url('imgs/home/back3.jpg')`,
-  };
+const HomePage = ({ appBackground, webBackground, graphicBackground }) => {
   return (
     <main className="home">
       <AppNav />
       <section className="section1">
-        <div>
+        <div className="content">
           <h1>Award-winning custom designs and digital branding solutions</h1>
           <p>
             With over 10 years in the industry, we are experienced in creating
@@ -25,33 +16,37 @@ const HomePage = () => {
           </p>
           <button>Learn More</button>
         </div>
-        <img src="imgs/home/hero-img.png" alt="phone structure" />
+        <div className=" img-cell">
+          <img src="imgs/home/hero-img.png" alt="phone structure" />
+        </div>
       </section>
       <section className="section2">
-        <div className="big" style={styles}>
+        <div className="big" style={webBackground}>
           <h1>web design </h1>
           <a href="#">
-            view project <FiChevronRight />
+            view project <FiChevronRight className="icon" />
           </a>
         </div>
-        <div>
-          <div className="small" style={styles1}>
+        <div className="smalls">
+          <div className="small" style={appBackground}>
             <h1>app design </h1>
             <a href="#">
-              view project <FiChevronRight />
+              view project <FiChevronRight className="icon" />
             </a>
           </div>
-          <div className="small" style={styles2}>
+          <div className="small" style={graphicBackground}>
             <h1>graphic design </h1>
             <a href="#">
-              view project <FiChevronRight />
+              view project <FiChevronRight className="icon" />
             </a>
           </div>
         </div>
       </section>
       <section className="section3">
         <div>
-          <img src="imgs/home/passion.png" alt="sticker" />
+          <div className="container">
+            <img src="imgs/home/passion.png" alt="sticker" />
+          </div>
           <h1>PASSIONATE</h1>
           <p>
             Each project starts with an in-depth brand research to ensure we

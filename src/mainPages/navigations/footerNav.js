@@ -1,6 +1,7 @@
 const FooterNav = () => {
   return (
     <nav>
+      <img src="imgs/Group 13.png" alt="logo" />
       <ul>
         <li>
           <p>OUR COMPANY</p>

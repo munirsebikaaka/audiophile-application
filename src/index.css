@@ -26,14 +26,21 @@ nav,
 .ours .section1,
 .ours .section2,
 .ours .section3,
-.countries {
-  max-width: 1200px;
-  margin: 0 auto;
+.countries,
+.footer-main,
+.locations section,
+.designs-sec {
+  max-width: 1100px;
+  margin: 50px auto;
 }
 
-.section1,
+/* .home .section1, */
+.locations section,
+.designs-sec div,
 nav,
 nav ul,
+.big,
+.small,
 .home .section3,
 .home .section3 div,
 .design .section2 .main,
@@ -43,15 +50,60 @@ nav ul,
 .ours .section3,
 .countries,
 .countries div,
-.home .section2 {
+.home .section2,
+.footer-main,
+.locations .details,
+.designs-sec {
   display: flex;
 }
-.section1 h1 {
+nav,
+.footer-main,
+.home .section1 {
+  margin: 0 auto;
+}
+.home .section1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid red;
+  /* padding-left: 30px; */
+  background-color: var(--main-background-color);
+  color: var(--main-app-color);
+}
+.home .section1 .img-cell {
+  text-align: end;
+  border-radius: 50%;
+  background-image: linear-gradient(#5d02023d, #5d020200);
+}
+.home .section1 .content {
+  border: 1px solid red;
+  margin-right: -150px;
+
+  /* margin-left: 50px; */
+}
+.home .section1 p {
+  width: 445px;
+  height: 78px;
+}
+.home .section1 div {
+  padding-top: 70px;
+}
+.home .section1 .img-cell img {
+  height: 450px;
+}
+.home .section1 h1 {
   font-size: 48px;
   font-weight: 500;
   line-height: 48px;
+  margin-right: -150px;
+  width: 540px;
+  height: 165px;
 }
-.section1 p {
+.home .section1 p,
+.home .section3 p,
+.design .section1 p,
+.design .section2 p,
+.contact .section2 p,
+.ours p {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -71,14 +123,56 @@ button {
   border-radius: 8px;
 }
 
+.home .section2 a,
+.designs-sec a {
+  text-decoration: none;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  /* text-align: center; */
+  color: var(--main-app-color);
+  /* font-family: jost; */
+  /* font-family: Jost; */
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21.68px;
+  letter-spacing: 5px;
+  /* text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none; */
+}
+.icon {
+  /* color: var (--main-background-color); */
+  color: var(--main-background-color);
+}
+.home .section2 h1 {
+  /* font-family: Jost; */
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 2px;
+  color: var(--main-app-color);
+  text-transform: uppercase;
+  /* text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+   */
+}
 nav,
-.countries {
+.countries,
+.footer-main,
+.locations section {
   justify-content: space-between;
   align-items: center;
   padding: 30px 0;
 }
-.countries {
+.countries,
+.locations section {
   padding: 0;
+}
+.footer-main {
+  align-items: end;
 }
 
 nav ul {
@@ -93,21 +187,41 @@ nav ul li {
   cursor: pointer;
 }
 nav ul li:hover {
-  border-bottom: 1px solid var(--footer-background-color);
+  text-decoration: underline;
 }
-.home .section2 div {
-  border: 1px solid red;
+.home .section2 div,
+.designs-sec div {
   width: 100%;
 }
-.big {
-  height: 501.5px;
-  background-size: cover;
-  background-position: center;
+.home .section2 .smalls {
+  display: flex;
+  flex-direction: column;
 }
-.small {
-  height: 250px;
+
+.home .section2,
+.home .section2 .smalls {
+  gap: 20px;
+}
+.big {
+  height: 564px;
+  /* background-image: linear-gradient(#f50b0b, #000000); */
+  /* background-image: linear-gradient(#00000000, #00000084); */
+}
+.small,
+.designs-sec div {
+  height: 272.3px;
+}
+
+.big,
+.small,
+.designs-sec div {
+  border-radius: 8px;
   background-size: cover;
   background-position: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 .home .section3 {
   align-items: center;
@@ -129,11 +243,22 @@ nav ul li:hover {
 .design .section2 .main div p {
   text-align: center;
 }
-.section3 img {
+.home .section3 img {
   width: 180px;
-  height: 150px;
+  height: 160px;
 }
-/* WEB DESIGN */
+.home .section3 .container {
+  background-color: red;
+  border-radius: 50%;
+  height: 170px;
+}
+.home .section3 h1 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 5px;
+}
+/*  DESIGN */
 .design .section2 .main {
   justify-content: space-between;
   gap: 30px;
@@ -141,6 +266,21 @@ nav ul li:hover {
 .design .section2 img {
   width: 100%;
   height: 350px;
+  border-top-right-radius: 11px;
+  border-top-left-radius: 11px;
+}
+.design .section2 .det {
+  border-bottom-right-radius: 11px;
+  border-bottom-left-radius: 11px;
+  background-color: var(--cards-det-back-color);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.design .section2 .det:hover {
+  background-color: var(--main-background-color);
+}
+.designs-sec {
+  gap: 20px;
 }
 
 /* OURS */
@@ -151,4 +291,32 @@ nav ul li:hover {
 }
 .countries div img {
   height: 100px;
+}
+footer h3 {
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #ffffff5e;
+}
+.footer-icon {
+  width: 28px;
+  height: 28px;
+  color: var(--main-background-color);
+}
+footer .icons-cell {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+footer .main {
+  /* padding: 30px 0; */
+  background-color: var(--footer-background-color);
+}
+footer .main {
+  padding: 30px 0;
+}
+/* LOCATIONS */
+.locations .details {
+  gap: 30px;
 }

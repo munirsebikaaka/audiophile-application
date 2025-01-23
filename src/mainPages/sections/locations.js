@@ -5,8 +5,8 @@ const Locations = () => {
   return (
     <main className="locations">
       <AppNav />
-      <section>
-        <div>
+      <section className="section1">
+        <div className="dets-cell">
           <h1>Canada</h1>
           <div className="details">
             <div>
@@ -23,9 +23,9 @@ const Locations = () => {
         </div>
         <img src="imgs/lacations/Group1.png" alt="card" />
       </section>
-      <section>
+      <section className="section2">
         <img src="imgs/lacations/Group2.png" alt="card" />
-        <div>
+        <div className="dets-cell">
           <h1>Australia</h1>
           <div className="details">
             <div>
@@ -42,8 +42,8 @@ const Locations = () => {
         </div>
       </section>
 
-      <section>
-        <div>
+      <section className="section3">
+        <div className="dets-cell">
           <h1>United Kingdom</h1>
           <div className="details">
             <div>

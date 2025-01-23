@@ -1,8 +1,11 @@
 import { FiChevronRight } from "react-icons/fi";
 import Footer from "../../generals/footer";
+import AppNav from "../navigations/appNavigation";
+import { NavLink } from "react-router-dom";
 const WebDesign = ({ graphicBackground, appBackground }) => {
   return (
     <main className="design">
+      <AppNav />
       <section className="section1">
         <h1>Web Design</h1>
         <p>
@@ -77,15 +80,15 @@ const WebDesign = ({ graphicBackground, appBackground }) => {
       <section className="designs-sec">
         <div style={appBackground}>
           <h1>APP DESIGN</h1>
-          <a href="#">
+          <NavLink to={"/app"}>
             view project <FiChevronRight />
-          </a>
+          </NavLink>
         </div>
         <div style={graphicBackground}>
           <h1>GRAPHIC DESIGN</h1>
-          <a href="#">
+          <NavLink to={"/graphic"}>
             view project <FiChevronRight />
-          </a>
+          </NavLink>
         </div>
       </section>
       <Footer />

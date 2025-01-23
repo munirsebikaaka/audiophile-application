@@ -1,6 +1,7 @@
 import { FiChevronRight } from "react-icons/fi";
 import AppNav from "./navigations/appNavigation";
 import Footer from "../generals/footer";
+import { NavLink } from "react-router-dom";
 
 const HomePage = ({ appBackground, webBackground, graphicBackground }) => {
   return (
@@ -23,22 +24,22 @@ const HomePage = ({ appBackground, webBackground, graphicBackground }) => {
       <section className="section2">
         <div className="big" style={webBackground}>
           <h1>web design </h1>
-          <a href="#">
+          <NavLink to={"/web"}>
             view project <FiChevronRight className="icon" />
-          </a>
+          </NavLink>
         </div>
         <div className="smalls">
           <div className="small" style={appBackground}>
             <h1>app design </h1>
-            <a href="#">
+            <NavLink to={"/app"}>
               view project <FiChevronRight className="icon" />
-            </a>
+            </NavLink>
           </div>
           <div className="small" style={graphicBackground}>
             <h1>graphic design </h1>
-            <a href="#">
+            <NavLink to={"/graphic"}>
               view project <FiChevronRight className="icon" />
-            </a>
+            </NavLink>
           </div>
         </div>
       </section>
@@ -55,7 +56,9 @@ const HomePage = ({ appBackground, webBackground, graphicBackground }) => {
           </p>
         </div>
         <div>
-          <img src="imgs/home/resource.png" alt="sticker" />
+          <div className="container">
+            <img src="imgs/home/resource.png" alt="sticker" />
+          </div>
           <h1>RESOURCEFUL</h1>
           <p>
             Everything that we do has a strategic purpose. We use an agile
@@ -64,8 +67,9 @@ const HomePage = ({ appBackground, webBackground, graphicBackground }) => {
           </p>
         </div>
         <div>
-          <img src="imgs/home/freindly.png" alt="sticker" />
-
+          <div className="container">
+            <img src="imgs/home/freindly.png" alt="sticker" />
+          </div>
           <h1>FRIENDLY</h1>
           <p>
             We are a group of enthusiastic folks who know how to put people

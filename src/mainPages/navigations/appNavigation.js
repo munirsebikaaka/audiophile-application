@@ -1,16 +1,20 @@
+import { NavLink } from "react-router-dom";
+
 const AppNav = () => {
   return (
     <nav>
-      <img src="imgs/home/app-logo.png" alt="logo of the application" />
+      <NavLink to={"/"}>
+        <img src="imgs/home/app-logo.png" alt="logo of the application" />
+      </NavLink>
       <ul>
         <li>
-          <p>OUR COMPANY</p>
+          <NavLink to={"/ours"}>OUR COMPANY</NavLink>
         </li>
         <li>
-          <p>LOCATIONS</p>
+          <NavLink to={"/location"}>LOCATIONS</NavLink>
         </li>
         <li>
-          <p>CONTACT</p>
+          <NavLink to={"/contact"}>CONTACT</NavLink>
         </li>
       </ul>
     </nav>

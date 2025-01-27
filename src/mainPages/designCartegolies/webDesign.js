@@ -15,14 +15,14 @@ const WebDesign = ({ graphicBackground, appBackground }) => {
       </section>
       <section className="section2">
         <div className="main">
-          <div>
+          <div className="cell">
             <img src="imgs/webD/expr.png" alt="card" />
             <div className="det">
               <h1>EXPRESS</h1>
               <p>A multi-carrier shipping website for ecommerce businesses</p>
             </div>
           </div>
-          <div>
+          <div className="cell">
             <img src="imgs/webD/trans.png" alt="card" />
 
             <div className="det">
@@ -33,7 +33,7 @@ const WebDesign = ({ graphicBackground, appBackground }) => {
               </p>
             </div>
           </div>
-          <div>
+          <div className="cell">
             <img src="imgs/webD/phot.png" alt="card" />
             <div className="det">
               <h1>PHOTON</h1>
@@ -45,7 +45,7 @@ const WebDesign = ({ graphicBackground, appBackground }) => {
           </div>
         </div>
         <div className="main">
-          <div>
+          <div className="cell">
             <img src="imgs/webD/build.jpg" alt="card" />
             <div className="det">
               <h1>BUILDER</h1>
@@ -54,7 +54,7 @@ const WebDesign = ({ graphicBackground, appBackground }) => {
               </p>
             </div>
           </div>
-          <div>
+          <div className="cell">
             <img src="imgs/webD/blog.png" alt="card" />
 
             <div className="det">
@@ -64,7 +64,7 @@ const WebDesign = ({ graphicBackground, appBackground }) => {
               </p>
             </div>
           </div>
-          <div>
+          <div className="cell">
             <img src="imgs/webD/cam.png" alt="card" />
 
             <div className="det">
@@ -81,13 +81,13 @@ const WebDesign = ({ graphicBackground, appBackground }) => {
         <div style={appBackground}>
           <h1>APP DESIGN</h1>
           <NavLink to={"/app"}>
-            view project <FiChevronRight />
+            view project <FiChevronRight className="icon" />
           </NavLink>
         </div>
         <div style={graphicBackground}>
           <h1>GRAPHIC DESIGN</h1>
           <NavLink to={"/graphic"}>
-            view project <FiChevronRight />
+            view project <FiChevronRight className="icon" />
           </NavLink>
         </div>
       </section>

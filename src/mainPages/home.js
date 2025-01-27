@@ -11,15 +11,15 @@ const HomePage = ({ appBackground, webBackground, graphicBackground }) => {
         <div className="content">
           <h1>Award-winning custom designs and digital branding solutions</h1>
           <p>
-            With over 10 years in the industry, we are experienced in creating
-            fully responsive websites, app design, and engaging brand
+            With over 10 years in the industry, we are experienced in <br />
+            creating fully responsive websites, app design, and engaging brand
             experiences. Find out more about our services.
           </p>
           <button>Learn More</button>
         </div>
-        <div className=" img-cell">
-          <img src="imgs/home/hero-img.png" alt="phone structure" />
-        </div>
+        <div className=" img-cell"></div>
+
+        <img src="imgs/home/hero-img.png" alt="phone structure" />
       </section>
       <section className="section2">
         <div className="big" style={webBackground}>
@@ -44,7 +44,7 @@ const HomePage = ({ appBackground, webBackground, graphicBackground }) => {
         </div>
       </section>
       <section className="section3">
-        <div>
+        <div className="main">
           <div className="container">
             <img src="imgs/home/passion.png" alt="sticker" />
           </div>
@@ -55,8 +55,8 @@ const HomePage = ({ appBackground, webBackground, graphicBackground }) => {
             technology into exciting new solutions.
           </p>
         </div>
-        <div>
-          <div className="container">
+        <div className="main">
+          <div className="container1">
             <img src="imgs/home/resource.png" alt="sticker" />
           </div>
           <h1>RESOURCEFUL</h1>
@@ -66,8 +66,8 @@ const HomePage = ({ appBackground, webBackground, graphicBackground }) => {
             guarantees superior results that fulfill our clients’ needs.
           </p>
         </div>
-        <div>
-          <div className="container">
+        <div className="main">
+          <div className="container2">
             <img src="imgs/home/freindly.png" alt="sticker" />
           </div>
           <h1>FRIENDLY</h1>

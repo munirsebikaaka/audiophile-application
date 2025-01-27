@@ -45,13 +45,13 @@ const GraphicDesign = ({ appBackground, webBackground }) => {
         <div style={appBackground}>
           <h1>APP DESIGN</h1>
           <NavLink to={"/app"}>
-            view project <FiChevronRight />
+            view project <FiChevronRight className="icon" />
           </NavLink>
         </div>
         <div style={webBackground}>
           <h1>WEB DESIGN</h1>
           <NavLink to={"/web"}>
-            view project <FiChevronRight />
+            view project <FiChevronRight className="icon" />
           </NavLink>
         </div>
       </section>

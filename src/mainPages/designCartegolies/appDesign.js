@@ -6,7 +6,18 @@ const AppDesign = ({ webBackground, graphicBackground }) => {
   return (
     <main className="design">
       <AppNav />
-      <section className="section1">
+      <section className="section1 app">
+        <div className="shades3">
+          <div className="sha1"></div>
+          <div className="sha1"></div>
+        </div>
+
+        <div className="shades4">
+          <div className="sha1"></div>
+          <div className="sha1"></div>
+          <div className="sha1"></div>
+        </div>
+
         <h1>App Design</h1>
         <p>
           Our mobile designs bring intuitive digital solutions to your customers

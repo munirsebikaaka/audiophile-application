@@ -6,7 +6,16 @@ const WebDesign = ({ graphicBackground, appBackground }) => {
   return (
     <main className="design">
       <AppNav />
-      <section className="section1">
+      <section className="section1 web">
+        <div className="shades">
+          <div className="sha1"></div>
+          <div className="sha1"></div>
+          <div className="sha1"></div>
+        </div>
+        <div className="shades2">
+          <div className="sha1"></div>
+          <div className="sha1"></div>
+        </div>
         <h1>Web Design</h1>
         <p>
           We build websites that serve as powerful marketing tools and bring

@@ -13,7 +13,6 @@ const App = () => {
     backgroundImage: `
     linear-gradient(rgb(0 0 0 /35%),rgb(0 0 0 / 35%))
     ,url('imgs/home/back1.png')`,
-    // backgroundImage: ` linearGradient(#000000)`,
   };
   const styles1 = {
     backgroundImage: `   

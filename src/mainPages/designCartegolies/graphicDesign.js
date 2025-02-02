@@ -6,7 +6,17 @@ const GraphicDesign = ({ appBackground, webBackground }) => {
   return (
     <main className="design">
       <AppNav />
-      <section className="section1">
+      <section className="section1 desig">
+        <div className="shades5">
+          <div className="sha1"></div>
+          <div className="sha1"></div>
+        </div>
+        <div className="shades6">
+          <div className="sha1"></div>
+          <div className="sha1"></div>
+          <div className="sha1"></div>
+        </div>
+
         <h1>Graphic Design</h1>
         <p>
           We deliver eye-catching branding materials that are tailored to meet

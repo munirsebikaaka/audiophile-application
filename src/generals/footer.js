@@ -8,18 +8,17 @@ import { FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer>
-      {/* <div className="section4">
-        <div>
-          <h1>Let’s talk about your project</h1>
-          <p>
-            Ready to take it to the next level? Contact us today and find out
-            how our expertise can help your business grow.
-          </p>
-        </div>
-        <button>Get in touch</button>
-      </div> */}
       <div className="main">
         <div className="section4">
+          <div className="shades7">
+            <div className="sha1 sha-f"></div>
+            <div className="sha1"></div>
+          </div>
+          <div className="shades8">
+            <div className="sha1 sha"></div>
+            <div className="sha1 sha2"></div>
+            <div className="sha1 sha3"></div>
+          </div>
           <div>
             <h1>Let’s talk about your project</h1>
             <p>

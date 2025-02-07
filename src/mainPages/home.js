@@ -48,34 +48,40 @@ const HomePage = ({ appBackground, webBackground, graphicBackground }) => {
           <div className="container">
             <img src="imgs/home/passion.png" alt="sticker" />
           </div>
-          <h1>PASSIONATE</h1>
-          <p>
-            Each project starts with an in-depth brand research to ensure we
-            only create products that serve a purpose. We merge art, design, and
-            technology into exciting new solutions.
-          </p>
+          <div>
+            <h1>PASSIONATE</h1>
+            <p>
+              Each project starts with an in-depth brand research to ensure we
+              only create products that serve a purpose. We merge art, design,
+              and technology into exciting new solutions.
+            </p>
+          </div>
         </div>
         <div className="main">
           <div className="container1">
             <img src="imgs/home/resource.png" alt="sticker" />
           </div>
-          <h1>RESOURCEFUL</h1>
-          <p>
-            Everything that we do has a strategic purpose. We use an agile
-            approach in all of our projects and value customer collaboration. It
-            guarantees superior results that fulfill our clients’ needs.
-          </p>
+          <div>
+            <h1>RESOURCEFUL</h1>
+            <p>
+              Everything that we do has a strategic purpose. We use an agile
+              approach in all of our projects and value customer collaboration.
+              It guarantees superior results that fulfill our clients’ needs.
+            </p>
+          </div>
         </div>
         <div className="main">
           <div className="container2">
             <img src="imgs/home/freindly.png" alt="sticker" />
           </div>
-          <h1>FRIENDLY</h1>
-          <p>
-            We are a group of enthusiastic folks who know how to put people
-            first. Our success depends on our customers, and we strive to give
-            them the best experience a company can provide.
-          </p>
+          <div>
+            <h1>FRIENDLY</h1>
+            <p>
+              We are a group of enthusiastic folks who know how to put people
+              first. Our success depends on our customers, and we strive to give
+              them the best experience a company can provide.
+            </p>
+          </div>
         </div>
       </section>
       <Footer />

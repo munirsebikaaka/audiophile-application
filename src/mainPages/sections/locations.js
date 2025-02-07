@@ -21,10 +21,10 @@ const Locations = () => {
             </div>
           </div>
         </div>
-        <img src="imgs/lacations/Group1.png" alt="card" />
+        <img className="img" src="imgs/lacations/Group1.png" clalt="card" />
       </section>
       <section className="section2">
-        <img src="imgs/lacations/Group2.png" alt="card" />
+        <img className="img" src="imgs/lacations/Group2.png" alt="card" />
         <div className="dets-cell">
           <div className="details">
             <div>
@@ -60,7 +60,7 @@ const Locations = () => {
             </div>
           </div>
         </div>
-        <img src="imgs/lacations/Group3.png" alt="card" />
+        <img className="img" src="imgs/lacations/Group3.png" alt="card" />
       </section>
       <Footer />
     </main>

@@ -482,6 +482,7 @@ nav ul li:hover {
   flex-direction: column;
   justify-content: center;
   padding-left: 80px;
+  /* width: 100%; */
 }
 .ours .section2 img {
   width: 100%;
@@ -679,7 +680,8 @@ footer .section4 p {
 /* SHADES */
 .web,
 .app,
-.desig {
+.desig,
+footer .main .section4 {
   position: relative;
   overflow: hidden;
 }
@@ -688,51 +690,64 @@ footer .section4 p {
 .shades3 .sha1,
 .shades4 .sha1,
 .shades5 .sha1,
-.shades6 .sha1 {
+.shades6 .sha1,
+.shades7 .sha1,
+.shades8 .sha1 {
   height: 260px;
   width: 260px;
   border-radius: 50%;
   border: 1px solid red;
 }
-.shades {
+.shades,
+.shades2,
+.shades3,
+.shades4,
+.shades5,
+.shades6,
+.shades7,
+.shades8 {
   display: flex;
   align-items: center;
   position: absolute;
+}
+.shades {
   right: 0;
   top: -90%;
 }
 .shades2 {
-  display: flex;
-  align-items: center;
-  position: absolute;
   bottom: -100%;
   right: 0;
 }
 .shades3 {
-  display: flex;
-  align-items: center;
-  position: absolute;
   top: -90%;
 }
 .shades4 {
-  display: flex;
-  align-items: center;
-  position: absolute;
   bottom: -100%;
   left: 0;
 }
 .shades5 {
-  display: flex;
-  align-items: center;
-  position: absolute;
-
   bottom: -100%;
   left: -3%;
 }
 .shades6 {
-  display: flex;
-  align-items: center;
-  position: absolute;
   top: -90%;
   left: -3%;
+}
+.shades7 {
+  top: -70%;
+  right: 0%;
+}
+.shades8 {
+  bottom: -75%;
+  right: 0%;
+}
+.shades8 .sha3 {
+  background-image: linear-gradient(to bottom, #5d02024f, #5d020200);
+}
+.shades8 .sha2,
+.shades8 .sha-f {
+  background-image: linear-gradient(to left, #5d02024f, #5d020200);
+}
+.shades8 .sha {
+  background-image: linear-gradient(to top, #5d02024f, #5d020200);
 }

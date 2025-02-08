@@ -26,7 +26,7 @@ const AppDesign = ({ webBackground, graphicBackground }) => {
       </section>
       <section className="section2">
         <div className="main">
-          <div>
+          <div className="cell">
             <img src="imgs/appD/Airfilter.png" alt="card" />
             <div className="det">
               <h1>AIRFILTER</h1>
@@ -36,7 +36,7 @@ const AppDesign = ({ webBackground, graphicBackground }) => {
               </p>
             </div>
           </div>
-          <div>
+          <div className="cell">
             <img src="imgs/appD/Eyecam.png" alt="card" />
             <div className="det">
               <h1>EYECAM</h1>
@@ -46,7 +46,7 @@ const AppDesign = ({ webBackground, graphicBackground }) => {
               </p>
             </div>
           </div>
-          <div>
+          <div className="cell">
             <img src="imgs/appD/Faceit.png" alt="card" />
             <div className="det">
               <h1>FACEIT</h1>
@@ -57,7 +57,7 @@ const AppDesign = ({ webBackground, graphicBackground }) => {
           </div>
         </div>
         <div className="main">
-          <div>
+          <div className="cell">
             <img src="imgs/appD/Dark.png" alt="card" />
             <div className="det">
               <h1>TODO</h1>
@@ -66,7 +66,7 @@ const AppDesign = ({ webBackground, graphicBackground }) => {
               </p>
             </div>
           </div>
-          <div>
+          <div className="cell">
             <img src="imgs/appD/Mobile.png" alt="card" />
             <div className="det">
               <h1>LOOPSTUDIOS</h1>

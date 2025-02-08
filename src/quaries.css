@@ -30,10 +30,13 @@
     flex-direction: column;
   }
   .home .section3 .main {
-    display: flex;
-    /* flex-direction: column; */
-    background-color: brown;
-    gap: 40px;
+    flex-direction: row;
+  }
+  .home .section3 .main .det {
+    align-items: start;
+  }
+  .home .section3 .main .det p {
+    text-align: start;
   }
   /* LOCATIONS */
   .locations .section1,
@@ -79,13 +82,58 @@
   .ours .section3 .det {
     width: 100%;
   }
-  .ours .section3 .det .cont {
+  .ours .section3 .det .cont,
+  .ours .section1 .det,
+  .ours .section2 div {
     align-items: center;
+    width: 100%;
+  }
+  .ours .section2 div {
+    padding-left: 0;
+  }
+  .ours .section3 .det .cont p,
+  .ours .section2 div p,
+  .ours .section1 .det p {
+    text-align: center;
+    width: 80%;
   }
   .countries {
     flex-direction: column;
     align-items: center;
     gap: 60px;
     padding: 0;
+  }
+  /* DESIGN */
+  .design .section2 .main .cell {
+    flex-direction: row;
+  }
+  .design .section2 .main {
+    flex-direction: column;
+  }
+  .designs-sec {
+    flex-direction: column;
+  }
+  .design .section2 .main .det {
+    height: 350px;
+    justify-content: center;
+    gap: 20px;
+    border-top-right-radius: 11px;
+    border-bottom-left-radius: 0;
+  }
+  .design .section2 .main img {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 11px;
+  }
+  /* CONTACT */
+  .contact .section1 {
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  .contact .section1 .det {
+    padding: 0;
+    margin-top: -70px;
+  }
+  .contact .section1 .det p {
+    width: 100%;
   }
 }

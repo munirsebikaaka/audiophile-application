@@ -25,25 +25,22 @@ const GraphicDesign = ({ appBackground, webBackground }) => {
       </section>
       <section className="section2">
         <div className="main">
-          <div>
+          <div className="cell">
             <img src="imgs/graphicD/graph2.png" alt="card" />
-
             <div className="det">
               <h1>TIM BROWN</h1>
               <p>A book cover designed for Tim Brown’s new release, ‘Change’</p>
             </div>
           </div>
-          <div>
+          <div className="cell">
             <img src="imgs/graphicD/graph3.jpg" alt="card" />
-
             <div className="det">
               <h1>BOXED WATER</h1>
               <p>A simple packaging concept made for Boxed Water</p>
             </div>
           </div>
-          <div>
+          <div className="cell">
             <img src="imgs/graphicD/graph1.png" alt="card" />
-
             <div className="det">
               <h1>SCIENCE!</h1>
               <p>A poster made in collaboration with the Federal Art Project</p>

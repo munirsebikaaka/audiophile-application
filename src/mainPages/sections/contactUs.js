@@ -1,8 +1,5 @@
 import Countries from "../../generals/countries";
-// import Footer from "../../generals/footer";
 import AppNav from "../navigations/appNavigation";
-
-// import FooterNav from "../mainPages/navigations/footerNav";
 import FooterNav from "../navigations/footerNav";
 import { IoLogoFacebook } from "react-icons/io";
 import { FaYoutube } from "react-icons/fa6";
@@ -10,10 +7,10 @@ import { FaTwitter } from "react-icons/fa6";
 import { CiLinkedin } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
 
-const ContactUs = () => {
+const ContactUs = ({ showLinks, setShowLinks }) => {
   return (
     <main className="contact">
-      <AppNav />
+      <AppNav showLinks={showLinks} setShowLinks={setShowLinks} />
       <section className="section1">
         <div>
           <div className="det">
@@ -36,22 +33,10 @@ const ContactUs = () => {
       <div className="count">
         <Countries />
       </div>
-      {/* <Footer /> */}
       <footer>
         <div className="main">
-          {/* <div className="section4">
-          <div>
-            <h1>Let’s talk about your project</h1>
-            <p>
-              Ready to take it to the next level? Contact us today and find out
-              how our expertise can help your business grow.
-            </p>
-          </div>
-          <button>Get in touch</button>
-        </div> */}
           <FooterNav />
           <div className="footer-main">
-            {/* <div> */}
             <div>
               <h3>Designo Central Office</h3>
               <h3>3886 Wellington Street</h3>
@@ -62,7 +47,6 @@ const ContactUs = () => {
               <h3>P: 256 742083075</h3>
               <h3>M: munirsebikaaka@gmail.com</h3>
             </div>
-            {/* </div> */}
             <div className="icons-cell">
               <IoLogoFacebook className="footer-icon" />
               <FaYoutube className="footer-icon" />

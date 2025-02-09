@@ -2,10 +2,15 @@ import { FiChevronRight } from "react-icons/fi";
 import Footer from "../../generals/footer";
 import AppNav from "../navigations/appNavigation";
 import { NavLink } from "react-router-dom";
-const AppDesign = ({ webBackground, graphicBackground }) => {
+const AppDesign = ({
+  webBackground,
+  graphicBackground,
+  showLinks,
+  setShowLinks,
+}) => {
   return (
     <main className="design">
-      <AppNav />
+      <AppNav showLinks={showLinks} setShowLinks={setShowLinks} />
       <section className="section1 app">
         <div className="shades3">
           <div className="sha1"></div>

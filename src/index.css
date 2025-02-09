@@ -185,14 +185,20 @@ nav ul {
   gap: 40px;
   list-style: none;
 }
-nav ul li {
+nav ul .link {
+  text-decoration: none;
   font-family: Jost;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 2px;
   cursor: pointer;
 }
-nav ul li:hover {
+.control-btns,
+.location-res-imgs,
+.location-res-imgs2 {
+  display: none;
+}
+nav ul .link:hover {
   text-decoration: underline;
 }
 .home .section2 div,
@@ -532,7 +538,6 @@ nav ul li:hover {
 
 /* FOOTER */
 footer h3 {
-  font-family: Jost;
   font-size: 16px;
   font-weight: 700;
   line-height: 26px;

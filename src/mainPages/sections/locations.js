@@ -1,10 +1,10 @@
 import Footer from "../../generals/footer";
 import AppNav from "../navigations/appNavigation";
 
-const Locations = () => {
+const Locations = ({ showLinks, setShowLinks }) => {
   return (
     <main className="locations">
-      <AppNav />
+      <AppNav showLinks={showLinks} setShowLinks={setShowLinks} />
       <section className="section1">
         <div className="dets-cell">
           <div className="details">
@@ -21,7 +21,12 @@ const Locations = () => {
             </div>
           </div>
         </div>
-        <img className="img" src="imgs/lacations/Group1.png" clalt="card" />
+        <img className="img" src="imgs/lacations/Group1.png" alt="card" />
+        <img
+          className="location-res-imgs"
+          src="imgs/lacations/Group1.png"
+          alt="card"
+        />
       </section>
       <section className="section2">
         <img className="img" src="imgs/lacations/Group2.png" alt="card" />

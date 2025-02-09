@@ -3,10 +3,16 @@ import AppNav from "./navigations/appNavigation";
 import Footer from "../generals/footer";
 import { NavLink } from "react-router-dom";
 
-const HomePage = ({ appBackground, webBackground, graphicBackground }) => {
+const HomePage = ({
+  appBackground,
+  webBackground,
+  graphicBackground,
+  showLinks,
+  setShowLinks,
+}) => {
   return (
     <main className="home">
-      <AppNav />
+      <AppNav showLinks={showLinks} setShowLinks={setShowLinks} />
       <section className="section1">
         <div className="content">
           <h1>Award-winning custom designs and digital branding solutions</h1>

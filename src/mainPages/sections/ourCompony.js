@@ -2,10 +2,10 @@ import Countries from "../../generals/countries";
 import Footer from "../../generals/footer";
 import AppNav from "../navigations/appNavigation";
 
-const OurCompony = () => {
+const OurCompony = ({ showLinks, setShowLinks }) => {
   return (
     <main className="ours">
-      <AppNav />
+      <AppNav showLinks={showLinks} setShowLinks={setShowLinks} />
       <section className="section1 ">
         <div className="cont">
           <div className="det">
@@ -19,10 +19,30 @@ const OurCompony = () => {
             </p>
           </div>
         </div>
-        <img src="imgs/about/Group1.jpg" alt="card" />
+        <img className="main-img" src="imgs/about/Group1.jpg" alt="card" />
+        <img
+          className="location-res-imgs"
+          src="imgs/about/tab1.png"
+          alt="card"
+        />
+        <img
+          className="location-res-imgs2"
+          src="imgs/about/ph1.png"
+          alt="card"
+        />
       </section>
       <section className="section2">
-        <img src="imgs/about/Group2.jpg" alt="card" />
+        <img className="main-img" src="imgs/about/Group2.jpg" alt="card" />
+        <img
+          className="location-res-imgs"
+          src="imgs/about/tab2.png"
+          alt="card"
+        />
+        <img
+          className="location-res-imgs2"
+          src="imgs/about/ph2.png"
+          alt="card"
+        />
         <div>
           <h1>World-class talent</h1>
           <p className="first">
@@ -60,9 +80,19 @@ const OurCompony = () => {
             </p>
           </div>
         </div>
-        <img src="imgs/about/Group3.png" alt="card" />
+        <img className="main-img" src="imgs/about/Group3.png" alt="card" />
+        <img
+          className="location-res-imgs"
+          src="imgs/about/tab3.png"
+          alt="card"
+        />
+        <img
+          className="location-res-imgs2"
+          src="imgs/about/ph3.png"
+          alt="card"
+        />
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 };

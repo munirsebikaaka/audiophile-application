@@ -6,9 +6,10 @@ import HomePage from "./mainPages/home";
 import ContactUs from "./mainPages/sections/contactUs";
 import Locations from "./mainPages/sections/locations";
 import OurCompony from "./mainPages/sections/ourCompony";
-// import AppNav from "./mainPages/navigations/appNavigation";
+import { useState } from "react";
 
 const App = () => {
+  const [showLinks, setShowLinks] = useState(false);
   const styles = {
     backgroundImage: `
     linear-gradient(rgb(0 0 0 /35%),rgb(0 0 0 / 35%))
@@ -27,6 +28,8 @@ const App = () => {
   };
   return (
     <div>
+      {!showLinks ? <div className="overly"></div> : ""}
+
       <BrowserRouter>
         <Routes>
           <Route
@@ -36,29 +39,61 @@ const App = () => {
                 appBackground={styles1}
                 webBackground={styles}
                 graphicBackground={styles2}
+                showLinks={showLinks}
+                setShowLinks={setShowLinks}
               />
             }
           />
-          <Route path="ours" element={<OurCompony />} />
-          <Route path="location" element={<Locations />} />
-          <Route path="contact" element={<ContactUs />} />
+          <Route
+            path="ours"
+            element={
+              <OurCompony showLinks={showLinks} setShowLinks={setShowLinks} />
+            }
+          />
+          <Route
+            path="location"
+            element={
+              <Locations showLinks={showLinks} setShowLinks={setShowLinks} />
+            }
+          />
+          <Route
+            path="contact"
+            element={
+              <ContactUs showLinks={showLinks} setShowLinks={setShowLinks} />
+            }
+          />
           <Route
             path="app"
             element={
-              <AppDesign webBackground={styles} graphicBackground={styles2} />
+              <AppDesign
+                webBackground={styles}
+                graphicBackground={styles2}
+                showLinks={showLinks}
+                setShowLinks={setShowLinks}
+              />
             }
           />
           <Route
             path="web"
             element={
-              <WebDesign graphicBackground={styles2} appBackground={styles1} />
+              <WebDesign
+                graphicBackground={styles2}
+                appBackground={styles1}
+                showLinks={showLinks}
+                setShowLinks={setShowLinks}
+              />
             }
           />
 
           <Route
             path="graphic"
             element={
-              <GraphicDesign appBackground={styles1} webBackground={styles} />
+              <GraphicDesign
+                appBackground={styles1}
+                webBackground={styles}
+                showLinks={showLinks}
+                setShowLinks={setShowLinks}
+              />
             }
           />
         </Routes>

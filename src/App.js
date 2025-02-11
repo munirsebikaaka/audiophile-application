@@ -3,6 +3,7 @@ import AppDesign from "./mainPages/designCartegolies/appDesign";
 import GraphicDesign from "./mainPages/designCartegolies/graphicDesign";
 import WebDesign from "./mainPages/designCartegolies/webDesign";
 import HomePage from "./mainPages/home";
+// import ContactUs from "./mainPages/sections/contactUs";
 import ContactUs from "./mainPages/sections/contactUs";
 import Locations from "./mainPages/sections/locations";
 import OurCompony from "./mainPages/sections/ourCompony";
@@ -28,7 +29,7 @@ const App = () => {
   };
   return (
     <div>
-      {!showLinks ? <div className="overly"></div> : ""}
+      {showLinks ? <div className="overly"></div> : ""}
 
       <BrowserRouter>
         <Routes>

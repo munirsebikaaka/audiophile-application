@@ -14,6 +14,8 @@ const ContactUs = ({ showLinks, setShowLinks }) => {
       <section className="section1">
         <div>
           <div className="det">
+            <div className="cont-sec1-det-shade"></div>
+
             <h1>Contact Us</h1>
             <p>
               Ready to take it to the next level? Let’s talk about your project
@@ -24,10 +26,15 @@ const ContactUs = ({ showLinks, setShowLinks }) => {
           </div>
         </div>
         <div className="login">
-          <input type="text" placeholder="Name" />
-          <input type="text" placeholder="Email Address" />
-          <input type="number" placeholder="Number" />
-          <input type="text" placeholder="Your Message" />
+          <label>name</label>
+          <input type="text" />
+          <label>email address</label>
+          <input type="text" />
+          <label>number</label>
+          <input type="number" />
+          <label className="msg">your Message</label>
+          <input type="text" />
+          <button>SUBMIT</button>
         </div>
       </section>
       <div className="count">

@@ -60,7 +60,8 @@ footer .section4 {
 .application-nav,
 .footer-main,
 .home .section1,
-footer .section4 {
+footer .section4,
+.contact .section1 {
   margin: 0 auto;
 }
 .home .section1 {
@@ -691,9 +692,13 @@ footer .section4 p {
 }
 /* CONTACT */
 .contact .section1 p {
-  width: 445px;
+  width: 100%;
+  opacity: 95%;
+  font-weight: 300;
 }
 .contact .section1 h1 {
+  display: block;
+  z-index: 5;
   font-size: 48px;
   font-weight: 500;
   line-height: 48px;
@@ -707,31 +712,63 @@ footer .section4 p {
   color: var(--main-app-color);
   margin-bottom: 150px;
 }
-.contact .section1 input {
-  border: none;
-  border-bottom: 1px solid var(--main-app-color);
-  background-color: inherit;
-  padding: 10px 0;
-  padding-left: 10px;
-}
-.login {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  margin-top: -50px;
-}
 .contact .section1 .det {
-  background-image: linear-gradient(to top, #5d02023d, #5d020200);
-  border-radius: 50%;
+  width: 100%;
   height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0 50px;
   margin-top: -70px;
+  position: relative;
+}
+.contact .section1 .cont-sec1-det-shade {
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(to top, #5d02023d, #5d020200);
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+}
+.contact .section1 input {
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid #ffffffd6;
+  background-color: inherit;
+  padding-left: 10px;
+  margin-bottom: 5px;
+  color: var(--main-app-color);
+  font-size: 15px;
+  font-family: jost;
+}
+.contact .section1 input:focus {
+  outline: none;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  margin-top: -50px;
+  position: relative;
+}
+.contact .section1 .login label {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  opacity: 50%;
+  padding-left: 10px;
+}
+.contact .login button {
+  position: absolute;
+  top: 110%;
+  right: 0;
+}
+.msg {
+  margin-bottom: 30px;
 }
 .contact .section1 div {
-  width: 100%;
+  width: 90%;
 }
 
 /* SHADES */

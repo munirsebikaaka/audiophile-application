@@ -2,6 +2,14 @@
   .home .section1 h1 {
     font-size: 38px;
   }
+
+  .contact .section1 .det {
+    height: 450px;
+    padding: 0 20px;
+  }
+  .contact .section1 .cont-sec1-det-shade {
+    height: 450px;
+  }
 }
 
 @media (max-width: 800px) {

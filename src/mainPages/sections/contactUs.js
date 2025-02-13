@@ -12,6 +12,8 @@ const ContactUs = ({ showLinks, setShowLinks }) => {
     <main className="contact">
       <AppNav showLinks={showLinks} setShowLinks={setShowLinks} />
       <section className="section1">
+        <div className="cont-sec1-det-shade2"></div>
+
         <div>
           <div className="det">
             <div className="cont-sec1-det-shade"></div>

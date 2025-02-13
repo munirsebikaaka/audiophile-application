@@ -61,7 +61,8 @@ footer .section4 {
 .footer-main,
 .home .section1,
 footer .section4,
-.contact .section1 {
+.contact .section1,
+.design .section1 {
   margin: 0 auto;
 }
 .home .section1 {
@@ -408,6 +409,8 @@ button {
   margin-bottom: 100px;
 }
 .design .section1 h1 {
+  display: block;
+  z-index: 5;
   font-size: 48px;
   font-weight: 500;
   line-height: 48px;
@@ -470,28 +473,46 @@ button {
 }
 
 .ours .section1 .det {
+  width: 100%;
   height: auto;
   height: 575px;
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
-  background-image: linear-gradient(to left, #5d02023d, #5d020200);
   margin-top: -70px;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 50px;
   color: var(--main-app-color);
+  position: relative;
+  overflow: hidden;
+}
+.ours .section1 .our-sec1-cont-shade {
+  background-image: linear-gradient(to left, #5d02023d, #5d020200);
+  height: 575px;
+  width: 100%;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.ours .section1 .cont p {
+  width: 90%;
+  opacity: 95%;
 }
 
 .ours .section1 h1 {
+  display: block;
   font-size: 48px;
   font-weight: 500;
   line-height: 48px;
+  z-index: 5;
   margin-bottom: 30px;
 }
 .ours .section2 h1 {
+  display: block;
+  z-index: 2;
   font-size: 40px;
   font-weight: 500;
   line-height: 48px;
@@ -511,17 +532,48 @@ button {
   flex-direction: column;
   justify-content: center;
   padding-left: 80px;
-  /* width: 100%; */
+  position: relative;
+  overflow: hidden;
+}
+
+.ours .section2 div .ours-sec2-shade1 {
+  display: none;
+}
+.ours .section2 div .ours-sec2-shade,
+.ours .section2 div .ours-sec2-shade2,
+.ours .section3 div .ours-sec3-shade,
+.ours .section3 div .ours-sec3-shade2 {
+  width: 268px;
+  height: 268px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0%;
+  bottom: 0;
+  background-image: linear-gradient(to left, #5d02020a, #5d020200);
+  transform: translate(-50%);
+  border: 1px solid red;
+}
+.ours .section2 div .ours-sec2-shade2 {
+  left: 41.5%;
+  background-image: linear-gradient(to top, #5d02020a, #5d020200);
+}
+.ours .section3 div .ours-sec3-shade {
+  left: 0;
+  bottom: 0;
+}
+.ours .section3 div .ours-sec3-shade2 {
+  left: 43%;
+  bottom: 0;
+  background-image: linear-gradient(to top, #5d02020a, #5d020200);
+}
+
+.ours .section3 .det {
+  position: relative;
+  overflow: hidden;
 }
 .ours .section2 img {
   width: 100%;
   height: 580px;
-}
-.ours .section2 p {
-  color: #0000009e;
-}
-.ours p {
-  width: 458px;
 }
 
 .ours .section3 h1 {
@@ -541,7 +593,6 @@ button {
 }
 .ours .section3 .det {
   background-color: var(--cards-det-back-color);
-  height: auto;
   height: 640px;
   display: flex;
   align-items: center;
@@ -552,6 +603,10 @@ button {
 .ours .section3 {
   grid-template-columns: 1.3fr 1fr;
   margin-bottom: 300px;
+}
+.ours .section2 div p,
+.ours .section3 .det .cont {
+  color: #333136;
 }
 
 /* FOOTER */
@@ -577,9 +632,7 @@ footer .main {
 footer .main {
   padding: 30px 0;
 }
-/* .footer-nav ul li {
-  color: black;
-} */
+
 .footer-nav {
   max-width: 1100px;
   margin: 0 auto;
@@ -711,6 +764,7 @@ footer .section4 p {
   padding-right: 70px;
   color: var(--main-app-color);
   margin-bottom: 150px;
+  border-radius: 11px;
 }
 .contact .section1 .det {
   width: 100%;
@@ -790,7 +844,7 @@ footer .main .section4 {
   height: 260px;
   width: 260px;
   border-radius: 50%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .shades,
 .shades2,
@@ -835,13 +889,30 @@ footer .main .section4 {
   bottom: -75%;
   right: 0%;
 }
-.shades8 .sha3 {
+.shades8 .sha3,
+.shades .sha1-f,
+.shades4 .sha,
+.shades3 .sha2,
+.shades6 .sha3,
+.shades5 .sha1-f {
   background-image: linear-gradient(to bottom, #5d02024f, #5d020200);
 }
+
 .shades8 .sha2,
-.shades8 .sha-f {
+.shades7 .sha-f {
   background-image: linear-gradient(to left, #5d02024f, #5d020200);
 }
-.shades8 .sha {
+.shades8 .sha,
+.shades .sha3,
+.shades2 .sha2,
+.shades4 .sha2,
+.shades5 .sha2 {
   background-image: linear-gradient(to top, #5d02024f, #5d020200);
+}
+.shades .sha2,
+.shades2 .sha,
+.shades4 .sha3,
+.shades3 .sha1-f,
+.shades6 .sha {
+  background-image: linear-gradient(to right, #5d02024f, #5d020200);
 }

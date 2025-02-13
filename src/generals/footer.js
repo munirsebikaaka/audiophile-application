@@ -11,8 +11,8 @@ const Footer = () => {
       <div className="main">
         <div className="section4">
           <div className="shades7">
+            <div className="sha1 "></div>
             <div className="sha1 sha-f"></div>
-            <div className="sha1"></div>
           </div>
           <div className="shades8">
             <div className="sha1 sha"></div>

@@ -14,6 +14,8 @@ const OurCompony = ({ showLinks, setShowLinks }) => {
       <section className="section1 ">
         <div className="cont">
           <div className="det">
+            <div className="our-sec1-cont-shade"></div>
+
             <h1>About Us</h1>
             <p>
               Founded in 2010, we are a creative agency that produces lasting
@@ -49,6 +51,9 @@ const OurCompony = ({ showLinks, setShowLinks }) => {
           alt="card"
         />
         <div>
+          <div className="ours-sec2-shade1"></div>
+          <div className="ours-sec2-shade"></div>
+          <div className="ours-sec2-shade2"></div>
           <h1>World-class talent</h1>
           <p className="first">
             We are a crew of strategists, problem-solvers, and technologists.
@@ -68,6 +73,9 @@ const OurCompony = ({ showLinks, setShowLinks }) => {
       <Countries />
       <section className="section3">
         <div className="det">
+          <div className="ours-sec3-shade1"></div>
+          <div className="ours-sec3-shade"></div>
+          <div className="ours-sec3-shade2"></div>
           <div className="cont">
             <h1>The real deal</h1>
             <p>

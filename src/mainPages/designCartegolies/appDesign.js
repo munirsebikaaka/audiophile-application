@@ -13,14 +13,14 @@ const AppDesign = ({
       <AppNav showLinks={showLinks} setShowLinks={setShowLinks} />
       <section className="section1 app">
         <div className="shades3">
-          <div className="sha1"></div>
-          <div className="sha1"></div>
+          <div className="sha1 sha1-f"></div>
+          <div className="sha1 sha2"></div>
         </div>
 
         <div className="shades4">
-          <div className="sha1"></div>
-          <div className="sha1"></div>
-          <div className="sha1"></div>
+          <div className="sha1 sha"></div>
+          <div className="sha1 sha2"></div>
+          <div className="sha1 sha3"></div>
         </div>
 
         <h1>App Design</h1>

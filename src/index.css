@@ -551,7 +551,6 @@ button {
   bottom: 0;
   background-image: linear-gradient(to left, #5d02020a, #5d020200);
   transform: translate(-50%);
-  border: 1px solid red;
 }
 .ours .section2 div .ours-sec2-shade2 {
   left: 41.5%;
@@ -817,6 +816,7 @@ footer .section4 p {
   position: absolute;
   top: 110%;
   right: 0;
+  transform: translate(-50%);
 }
 .msg {
   margin-bottom: 30px;
@@ -844,7 +844,6 @@ footer .main .section4 {
   height: 260px;
   width: 260px;
   border-radius: 50%;
-  /* border: 1px solid red; */
 }
 .shades,
 .shades2,

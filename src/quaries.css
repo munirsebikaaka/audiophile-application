@@ -240,7 +240,6 @@
     height: 650px;
     top: -43.3%;
     left: -25%;
-    /* border: 1px solid red; */
   }
   .contact .section1 p {
     width: 85%;
@@ -621,16 +620,99 @@
     left: -22%;
   }
   .shades7 {
-    top: -42%;
-    right: -18%;
+    top: -35%;
+    right: -10%;
   }
   .shades8 {
-    bottom: -59.5%;
+    bottom: -38%;
     right: -18%;
   }
 }
 @media (max-width: 430px) {
-  .home .section1 .content h1 {
-    color: red;
+  .home .section1 h1 {
+    font-size: 32px;
+    width: 90%;
+  }
+  .home .section1 p,
+  .home .section3 p,
+  .design .section1 p,
+  .design .section2 p,
+  .contact .section2 p,
+  .ours p,
+  footer .section4 p,
+  .contact .section1 p {
+    font-size: 15px;
+    width: 85%;
+  }
+  .home .section1 .img-cell {
+    right: -80%;
+    top: 8%;
+  }
+  /* OURS */
+  .ours .section1 .our-sec1-cont-shade {
+    background-image: linear-gradient(to top, #5d02023d, #5d020200);
+    width: 330px;
+    height: 300px;
+    bottom: 46%;
+    left: 15%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .ours .section2 div .ours-sec2-shade,
+  .ours .section3 div .ours-sec3-shade {
+    width: 310px;
+    height: 310px;
+    left: 21%;
+    bottom: -4%;
+  }
+  .ours .section2 div .ours-sec2-shade2,
+  .ours .section3 div .ours-sec3-shade2 {
+    width: 310px;
+    height: 310px;
+    left: 100%;
+    bottom: -4%;
+  }
+  .ours .section2 div .ours-sec2-shade1,
+  .ours .section3 div .ours-sec3-shade1 {
+    width: 310px;
+    height: 310px;
+    left: 0%;
+    bottom: 47%;
+  }
+  /* CONTACT */
+  .contact .section1 .cont-sec1-det-shade {
+    top: 13%;
+    left: -54%;
+  }
+  .contact .section1 .cont-sec1-det-shade2 {
+    right: -40.5%;
+  }
+  .contact .section1 {
+    padding-bottom: 150px;
+  }
+  .contact .login button {
+    top: 110%;
+    right: 10%;
+  }
+  .login {
+    margin-top: 20px;
+  }
+  /* LOCATIONS */
+  .locations .dets-cell {
+    overflow: hidden;
+  }
+
+  .locations .details .det .det-shade {
+    left: -35%;
+    top: 0;
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(to right, #5d02020a, #5d020200);
+  }
+  .locations .details .contact .contact-shade {
+    height: 300px;
+    width: 300px;
+    left: -35%;
+    bottom: -60%;
   }
 }

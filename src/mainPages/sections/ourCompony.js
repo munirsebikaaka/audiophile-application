@@ -15,7 +15,6 @@ const OurCompony = ({ showLinks, setShowLinks }) => {
         <div className="cont">
           <div className="det">
             <div className="our-sec1-cont-shade"></div>
-
             <h1>About Us</h1>
             <p>
               Founded in 2010, we are a creative agency that produces lasting

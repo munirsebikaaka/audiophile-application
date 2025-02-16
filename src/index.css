@@ -62,8 +62,14 @@ footer .section4 {
 .home .section1,
 footer .section4,
 .contact .section1,
-.design .section1 {
+.design .section1,
+.ours .section1,
+.locations .section1 {
   margin: 0 auto;
+}
+.padd,
+.res-pad {
+  padding: 0 15px;
 }
 .home .section1 {
   display: flex;
@@ -146,6 +152,11 @@ button {
   background-color: var(--main-app-color);
   border-radius: 8px;
   z-index: 10;
+  transition: all 0.5s;
+}
+button:hover {
+  background-color: #ffad9b;
+  color: var(--main-app-color);
 }
 
 .home .section2 a,
@@ -217,10 +228,13 @@ button {
 .home .section2 div,
 .designs-sec div {
   width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 .home .section2 .smalls {
   display: flex;
   flex-direction: column;
+  transition: all 0.5s;
 }
 
 .home .section2,
@@ -296,6 +310,10 @@ button {
 .countries div button {
   background-color: var(--main-background-color);
   color: #ffffffeb;
+  transition: all 0.5s;
+}
+.countries div button:hover {
+  background-color: #ffad9b;
 }
 
 .countries img {
@@ -632,15 +650,18 @@ footer .main {
   padding: 30px 0;
 }
 
-.footer-nav {
+.footer-nav,
+.our-nav {
   max-width: 1100px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   border-bottom: 1.5px solid #ffffff1a;
   justify-content: space-between;
+  padding: 30px 0;
 }
-.footer-nav ul {
+.footer-nav ul,
+.our-nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -657,7 +678,10 @@ footer .section4 {
   padding: 30px 0;
   margin-top: -180px;
 }
-footer .section4 h1 {
+footer .section4 h1,
+.locations .main .section4 h1 {
+  display: block;
+  z-index: 5;
   font-size: 40px;
   font-weight: 500;
   line-height: 40px;
@@ -666,6 +690,11 @@ footer .section4 h1 {
 }
 footer .section4 p {
   width: 459px;
+}
+.locations footer .main .section4 h1,
+.locations footer .main .section4 p,
+.locations footer .footer-main .locations-det h3 {
+  color: var(--main-app-color);
 }
 /* LOCATIONS */
 
@@ -679,7 +708,6 @@ footer .section4 p {
 .locations .details .contact {
   height: 230px;
   width: 230px;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -774,6 +802,7 @@ footer .section4 p {
   padding: 0 50px;
   margin-top: -70px;
   position: relative;
+  border: 1px solid red;
 }
 .contact .section1 .cont-sec1-det-shade {
   width: 100%;
@@ -799,6 +828,8 @@ footer .section4 p {
   outline: none;
 }
 .login {
+  width: 100%;
+  border: 1px solid red;
   display: flex;
   flex-direction: column;
   margin-top: -50px;
@@ -821,9 +852,9 @@ footer .section4 p {
 .msg {
   margin-bottom: 30px;
 }
-.contact .section1 div {
-  width: 90%;
-}
+/* .contact .section1 div {
+  width: 50%;
+} */
 
 /* SHADES */
 .web,
@@ -893,12 +924,13 @@ footer .main .section4 {
 .shades4 .sha,
 .shades3 .sha2,
 .shades6 .sha3,
-.shades5 .sha1-f {
+.shades5 .sha1-f,
+.shades7 .sha-f {
   background-image: linear-gradient(to bottom, #5d02024f, #5d020200);
 }
 
 .shades8 .sha2,
-.shades7 .sha-f {
+.shades7 .sha2 {
   background-image: linear-gradient(to left, #5d02024f, #5d020200);
 }
 .shades8 .sha,

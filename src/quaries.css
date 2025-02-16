@@ -96,9 +96,15 @@
   .ours .location-res-imgs,
   .locations .location-res-imgs {
     display: block;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
   }
   .locations .location-res-imgs {
     width: 100%;
+  }
+  .locations .location-res-imgs {
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
   }
   .ours .section1,
   .ours .section2,
@@ -159,6 +165,8 @@
   .ours .section3 .det {
     height: auto;
     padding: 100px 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 11px;
   }
 
   .ours .section2 div .ours-sec2-shade {
@@ -311,6 +319,9 @@
 }
 @media (max-width: 550px) {
   /* HOME */
+  .res-pad {
+    padding: 0;
+  }
   .home .section1 .content {
     align-items: center;
     gap: 30px;
@@ -465,6 +476,15 @@
     background-image: linear-gradient(to right, #5d02020a, #5d020200);
   }
 
+  .our-nav {
+    flex-direction: column;
+    border: none;
+    gap: 20px;
+  }
+  .our-nav ul {
+    flex-direction: column;
+    gap: 20px;
+  }
   /* LOCATIONS */
   .locations .details {
     flex-direction: column;
@@ -537,7 +557,7 @@
     left: 0;
   }
   .hide-links {
-    left: -100%;
+    left: -120%;
   }
   body {
     position: relative;
@@ -680,6 +700,7 @@
     bottom: 47%;
   }
   /* CONTACT */
+
   .contact .section1 .cont-sec1-det-shade {
     top: 13%;
     left: -54%;
@@ -698,21 +719,56 @@
     margin-top: 20px;
   }
   /* LOCATIONS */
+  .locations .details .det,
+  .locations .details .contact {
+    height: auto;
+    align-items: center;
+  }
+  .locations .details {
+    align-items: center;
+    gap: 20px;
+  }
   .locations .dets-cell {
     overflow: hidden;
+    padding: 50px 0;
   }
 
   .locations .details .det .det-shade {
-    left: -35%;
-    top: 0;
-    height: 300px;
-    width: 300px;
+    left: -31.5%;
+    top: -35%;
+    height: 270px;
+    width: 290px;
     background-image: linear-gradient(to right, #5d02020a, #5d020200);
   }
   .locations .details .contact .contact-shade {
     height: 300px;
     width: 300px;
     left: -35%;
-    bottom: -60%;
+    bottom: -349%;
+    background-image: linear-gradient(to right, #5d02020a, #5d020200);
+  }
+
+  footer .section4 {
+    padding: 100px 0;
+  }
+  .shades7 .sha-f {
+    display: none;
+  }
+  .shades7 .sha2 {
+    background-image: linear-gradient(to left, #5d02024f, #5d020200);
+  }
+  .shades7 .sha2,
+  .shades8 .sha2,
+  .shades8 .sha3 {
+    width: 300px;
+    height: 300px;
+  }
+  .shades7 {
+    top: -14.8%;
+    right: -10%;
+  }
+  .shades8 {
+    bottom: -14.5%;
+    right: -10%;
   }
 }

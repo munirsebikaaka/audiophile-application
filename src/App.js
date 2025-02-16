@@ -13,19 +13,30 @@ const App = () => {
   const [showLinks, setShowLinks] = useState(false);
   const styles = {
     backgroundImage: `
-    linear-gradient(rgb(0 0 0 /35%),rgb(0 0 0 / 35%))
-    ,url('imgs/home/back1.png')`,
+linear-gradient(rgb(0 0 0 /35%),rgb(0 0 0 / 35%)),url('imgs/home/back1.png')`,
+  };
+  const hoveredStyles = {
+    backgroundImage: `
+linear-gradient(rgb(255 173 155 / 85%),rgb(255 173 155 / 85%)),url('imgs/home/back1.png')`,
   };
   const styles1 = {
     backgroundImage: `   
     linear-gradient(rgb(0 0 0 /35%),rgb(0 0 0 / 35%))
     ,url('imgs/home/back2.png')`,
   };
+  const hoveredStyles1 = {
+    backgroundImage: `
+linear-gradient(rgb(255 173 155 / 85%),rgb(255 173 155 / 85%)),url('imgs/home/back2.png')`,
+  };
   const styles2 = {
     backgroundImage: `
     linear-gradient(rgb(0 0 0 / 35%),rgb(0 0 0 / 35%))
     ,
     url('imgs/home/back3.jpg')`,
+  };
+  const hoveredStyles2 = {
+    backgroundImage: `
+linear-gradient(rgb(255 173 155 / 85%),rgb(255 173 155 / 85%)),url('imgs/home/back3.jpg')`,
   };
   return (
     <div>
@@ -42,6 +53,9 @@ const App = () => {
                 graphicBackground={styles2}
                 showLinks={showLinks}
                 setShowLinks={setShowLinks}
+                hoveredStyles={hoveredStyles}
+                hoveredStyles1={hoveredStyles1}
+                hoveredStyles2={hoveredStyles2}
               />
             }
           />
@@ -71,6 +85,8 @@ const App = () => {
                 graphicBackground={styles2}
                 showLinks={showLinks}
                 setShowLinks={setShowLinks}
+                hoveredStyles={hoveredStyles}
+                hoveredStyles2={hoveredStyles2}
               />
             }
           />
@@ -82,6 +98,8 @@ const App = () => {
                 appBackground={styles1}
                 showLinks={showLinks}
                 setShowLinks={setShowLinks}
+                hoveredStyles1={hoveredStyles1}
+                hoveredStyles2={hoveredStyles2}
               />
             }
           />
@@ -94,6 +112,8 @@ const App = () => {
                 webBackground={styles}
                 showLinks={showLinks}
                 setShowLinks={setShowLinks}
+                hoveredStyles1={hoveredStyles1}
+                hoveredStyles={hoveredStyles}
               />
             }
           />

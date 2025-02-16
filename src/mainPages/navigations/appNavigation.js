@@ -7,7 +7,7 @@ const AppNav = ({ showLinks, setShowLinks }) => {
     setShowLinks(false);
   };
   return (
-    <>
+    <div className="res-pad">
       <nav className="application-nav">
         <NavLink onClick={setShowLinksDefault} to={"/"}>
           <img src="imgs/home/app-logo.png" alt="logo of the application" />
@@ -35,7 +35,7 @@ const AppNav = ({ showLinks, setShowLinks }) => {
           <IoMenu className="control-btns" onClick={() => setShowLinks(true)} />
         )}
       </nav>
-    </>
+    </div>
   );
 };
 export default AppNav;

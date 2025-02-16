@@ -11,34 +11,35 @@ const ContactUs = ({ showLinks, setShowLinks }) => {
   return (
     <main className="contact">
       <AppNav showLinks={showLinks} setShowLinks={setShowLinks} />
-      <section className="section1">
-        <div className="cont-sec1-det-shade2"></div>
+      <div className="res-pad">
+        <section className="section1">
+          <div className="cont-sec1-det-shade2"></div>
+          <div>
+            <div className="det">
+              <div className="cont-sec1-det-shade"></div>
 
-        <div>
-          <div className="det">
-            <div className="cont-sec1-det-shade"></div>
-
-            <h1>Contact Us</h1>
-            <p>
-              Ready to take it to the next level? Let’s talk about your project
-              or idea and find out how we can help your business grow. If you
-              are looking for unique digital experiences that’s relatable to
-              your users, drop us a line.
-            </p>
+              <h1>Contact Us</h1>
+              <p>
+                Ready to take it to the next level? Let’s talk about your
+                project or idea and find out how we can help your business grow.
+                If you are looking for unique digital experiences that’s
+                relatable to your users, drop us a line.
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="login">
-          <label>name</label>
-          <input type="text" />
-          <label>email address</label>
-          <input type="text" />
-          <label>number</label>
-          <input type="number" />
-          <label className="msg">your Message</label>
-          <input type="text" />
-          <button>SUBMIT</button>
-        </div>
-      </section>
+          <div className="login">
+            <label>name</label>
+            <input type="text" />
+            <label>email address</label>
+            <input type="text" />
+            <label>number</label>
+            <input type="number" />
+            <label className="msg">your Message</label>
+            <input type="text" />
+            <button>SUBMIT</button>
+          </div>
+        </section>
+      </div>
       <div className="count">
         <Countries />
       </div>

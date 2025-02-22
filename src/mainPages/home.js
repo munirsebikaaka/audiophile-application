@@ -37,6 +37,8 @@ const HomePage = ({
           <img src="imgs/home/hero-img.png" alt="phone structure" />
         </section>
       </div>
+      <div className="main-shade"></div>
+      <div className="main-shade2"></div>
       <div className="padd">
         <section className="section2">
           <div

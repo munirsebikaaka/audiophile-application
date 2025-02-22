@@ -40,6 +40,8 @@ const OurCompony = ({ showLinks, setShowLinks }) => {
           />
         </section>
       </div>
+      <div className="main-shade"></div>
+      <div className="main-shade2"></div>
       <div className="res-pad">
         <section className="section2">
           <img className="main-img" src="imgs/about/Group2.jpg" alt="card" />
@@ -53,7 +55,7 @@ const OurCompony = ({ showLinks, setShowLinks }) => {
             src="imgs/about/ph2.png"
             alt="card"
           />
-          <div>
+          <div className="dets-cont">
             <div className="ours-sec2-shade1"></div>
             <div className="ours-sec2-shade"></div>
             <div className="ours-sec2-shade2"></div>

@@ -61,6 +61,10 @@
   .home .section3 .main .det p {
     text-align: start;
   }
+  .main-shade,
+  .main-shade2 {
+    display: none;
+  }
   /* LOCATIONS */
   .locations .section1,
   .locations .section3,

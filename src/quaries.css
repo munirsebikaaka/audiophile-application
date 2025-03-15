@@ -14,8 +14,13 @@
 
 @media (max-width: 800px) {
   /* HOME */
+  .main-shade,
+  .main-shade2 {
+    display: none;
+  }
   .application-nav ul {
     gap: 20px;
+    z-index: 100;
   }
   .application-nav ul .link {
     font-size: 13px;
@@ -31,6 +36,7 @@
     gap: 100px;
     padding-top: 60px;
     margin-bottom: 100px;
+    z-index: 0;
   }
   .home .section1 .content {
     width: 100%;
@@ -237,11 +243,11 @@
   /* CONTACT */
   .contact .section1 {
     flex-direction: column;
-    padding: 100px 0;
+    padding: 100px 10px;
   }
   .contact .section1 .det {
     height: 320px;
-    padding: 0;
+    padding: 0 10px;
     padding-top: 50px;
     margin-top: -50px;
     justify-content: start;
@@ -319,6 +325,9 @@
   .shades8 {
     bottom: -59.5%;
     right: -18%;
+  }
+  footer .main .footer-main .locations-det h3 {
+    font-size: 12px;
   }
 }
 @media (max-width: 550px) {
@@ -508,16 +517,17 @@
   .contact .section1 {
     padding: 0 10px;
     position: relative;
+    padding-bottom: 100px;
   }
   .contact .section1 .cont-sec1-det-shade {
-    width: 350px;
+    width: 75%;
     height: 350px;
     background-image: linear-gradient(to bottom, #5d02023d, #5d020200);
     top: 14%;
     left: -25%;
   }
   .contact .section1 .cont-sec1-det-shade2 {
-    width: 350px;
+    width: 75%;
     height: 350px;
     background-image: linear-gradient(to right, #5d02023d, #5d020200);
     position: absolute;
@@ -705,13 +715,6 @@
   }
   /* CONTACT */
 
-  .contact .section1 .cont-sec1-det-shade {
-    top: 13%;
-    left: -54%;
-  }
-  .contact .section1 .cont-sec1-det-shade2 {
-    right: -40.5%;
-  }
   .contact .section1 {
     padding-bottom: 150px;
   }

@@ -12,7 +12,7 @@ const OurCompony = ({ showLinks, setShowLinks }) => {
     <main className="ours">
       <AppNav showLinks={showLinks} setShowLinks={setShowLinks} />
       <div className="res-pad">
-        <section className="section1 ">
+        <section className="section1">
           <div className="cont">
             <div className="det">
               <div className="our-sec1-cont-shade"></div>
@@ -40,8 +40,6 @@ const OurCompony = ({ showLinks, setShowLinks }) => {
           />
         </section>
       </div>
-      <div className="main-shade"></div>
-      <div className="main-shade2"></div>
       <div className="res-pad">
         <section className="section2">
           <img className="main-img" src="imgs/about/Group2.jpg" alt="card" />

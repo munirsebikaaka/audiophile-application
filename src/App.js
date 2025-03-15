@@ -8,7 +8,6 @@ import ContactUs from "./mainPages/sections/contactUs";
 import Locations from "./mainPages/sections/locations";
 import OurCompony from "./mainPages/sections/ourCompony";
 import { useState } from "react";
-
 const App = () => {
   const [showLinks, setShowLinks] = useState(false);
   const styles = {
